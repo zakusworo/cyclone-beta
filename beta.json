@@ -1,0 +1,20 @@
+{
+  "latest": {
+    "versionCode": 18,
+    "versionName": "0.10.0",
+    "minSdk": 29,
+    "date": "2026-11-01",
+    "apk": "https://github.com/zakusworo/cyclone-beta/releases/download/v0.10.0/cyclone-0.10.0.apk",
+    "size": 5592691,
+    "sha256": "9cfc500ace30a7dcde45a3aaa9f3bc9456b56417924d3cf3df982fe88149b47b",
+    "notes": [
+      "First beta.",
+      "Offline maps: find and download the map for where you are (Options → Offline maps).",
+      "Recording stays at one point per second with the screen off.",
+      "Fastest 5 km / 10 km times fixed.",
+      "Height above sea level corrected on Android 13 and older.",
+      "Rider & zones, auto-pause and sounds are now in Options."
+    ]
+  },
+  "messages": []
+}
