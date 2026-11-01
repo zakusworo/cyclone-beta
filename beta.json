@@ -16,5 +16,13 @@
       "Rider & zones, auto-pause and sounds are now in Options."
     ]
   },
-  "messages": []
+  "messages": [
+    {
+      "id": "2026-11-01-welcome",
+      "date": "2026-11-01",
+      "title": "Welcome to the Cyclone beta",
+      "text": "Thanks for testing Cyclone! To get started: download the map for your area (Options → Offline maps), and turn off battery optimisation for Cyclone (Options → This phone) so rides record smoothly with the screen off. New versions show up here as a notification. Found a bug or have an idea? Options → Beta & updates → Report on GitHub. Ride safe!",
+      "url": "https://github.com/zakusworo/cyclone-beta#install"
+    }
+  ]
 }
