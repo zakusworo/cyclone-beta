@@ -32,6 +32,8 @@ This repository only hands out the beta builds. The app's source code is not her
 
 ## Updates
 
+What changed in each version: [CHANGELOG.md](CHANGELOG.md).
+
 Cyclone checks this repository twice a day and shows a notification when a new beta is out. Tap it
 to download and install; Android asks you to confirm, and the first time to allow Cyclone to install
 apps. You can also check by hand in **Options → Beta & updates**. Rides and settings are kept.
