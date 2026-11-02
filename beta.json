@@ -1,15 +1,16 @@
 {
   "latest": {
-    "versionCode": 21,
-    "versionName": "0.12.1",
-    "minSdk": 29,
+    "versionCode": 23,
+    "versionName": "0.14.0",
+    "minSdk": 26,
     "date": "2026-11-02",
-    "apk": "https://github.com/zakusworo/cyclone-beta/releases/download/v0.12.1/cyclone-0.12.1.apk",
-    "size": 5964625,
-    "sha256": "16091e87a98e7d9f127f534d6f3ec5ecfbdb16d307c6f929f138020db5a803cc",
+    "apk": "https://github.com/zakusworo/cyclone-beta/releases/download/v0.14.0/cyclone-0.14.0.apk",
+    "size": 2894011,
+    "sha256": "6cc3141109075240b0456730441d2deaeebcfa76069dcccaafaf512bbbb3945e",
     "notes": [
-      "One tap to update: Check & update now downloads and installs a new version straight away (from the next update on).",
-      "Problem reports (0.12.0): Options → Beta & updates → Send problem report e-mails the report to Cyclone support."
+      "Runs on Android 8.0 (Oreo) and newer.",
+      "Gear: your bikes with photos. Each bike keeps its own tyre size, speed/cadence sensors and km.",
+      "Stats & goals: set a weekly, monthly or yearly target and see how far along you are, with streaks and this week/month/year against the last."
     ]
   },
   "messages": [
@@ -33,6 +34,13 @@
       "title": "New in 0.12: send problem reports",
       "text": "Thanks to the tester who told us about a force close last night! From 0.12.0 Cyclone notes what happened when it closes unexpectedly and offers to send a report at the next start. Please update, then if it happens again: tap the notification, or Options → Beta & updates → Send problem report. Your e-mail app opens addressed to cyclonebikeco@gmail.com with the report attached; just press Send. If you had the force close before updating, open Beta & updates once after updating: Cyclone may still find it in Android's records and offer to send it.",
       "url": "https://github.com/zakusworo/cyclone-beta/releases/tag/v0.12.0"
+    },
+    {
+      "id": "2026-11-02-gear-stats",
+      "date": "2026-11-02",
+      "title": "New in 0.13: Gear and Stats",
+      "text": "Two new tiles on the home screen. Gear: add your bike (type is enough; brand, model, tyre and a photo are optional). The tyre size sets the speed from a wheel sensor, and each bike keeps its own sensors and counts its own km. Have more than one bike? Tap Ride this bike before you set off. Stats: pick a goal, like 100 km a week, and Cyclone shows your progress and what it takes to get there, plus streaks and how this week, month or year compares with the last. Your bike not in the list? Type it in and tick Suggest; we add new bikes to the list without an app update.",
+      "url": "https://github.com/zakusworo/cyclone-beta/releases/tag/v0.13.0"
     }
   ],
   "supportEmail": "cyclonebikeco@gmail.com"

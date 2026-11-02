@@ -1,0 +1,1461 @@
+{
+ "version": 1,
+ "updated": "2026-11-02",
+ "brands": [
+  {
+   "name": "Bianchi",
+   "country": "IT",
+   "models": [
+    {
+     "name": "Oltre",
+     "type": "road"
+    },
+    {
+     "name": "Specialissima",
+     "type": "road"
+    },
+    {
+     "name": "Sprint",
+     "type": "road"
+    },
+    {
+     "name": "Infinito",
+     "type": "road"
+    },
+    {
+     "name": "Via Nirone 7",
+     "type": "road"
+    },
+    {
+     "name": "Impulso",
+     "type": "gravel"
+    },
+    {
+     "name": "Arcadex",
+     "type": "gravel"
+    },
+    {
+     "name": "Methanol",
+     "type": "mtb"
+    }
+   ]
+  },
+  {
+   "name": "BMC",
+   "country": "CH",
+   "models": [
+    {
+     "name": "Teammachine",
+     "type": "road"
+    },
+    {
+     "name": "Roadmachine",
+     "type": "road"
+    },
+    {
+     "name": "Timemachine",
+     "type": "road"
+    },
+    {
+     "name": "Kaius",
+     "type": "gravel"
+    },
+    {
+     "name": "URS",
+     "type": "gravel"
+    },
+    {
+     "name": "Twostroke",
+     "type": "mtb"
+    },
+    {
+     "name": "Fourstroke",
+     "type": "mtb"
+    },
+    {
+     "name": "Speedfox",
+     "type": "mtb"
+    }
+   ]
+  },
+  {
+   "name": "Brompton",
+   "country": "GB",
+   "models": [
+    {
+     "name": "C Line",
+     "type": "folding"
+    },
+    {
+     "name": "P Line",
+     "type": "folding"
+    },
+    {
+     "name": "T Line",
+     "type": "folding"
+    },
+    {
+     "name": "A Line",
+     "type": "folding"
+    },
+    {
+     "name": "G Line",
+     "type": "folding"
+    },
+    {
+     "name": "Electric",
+     "type": "folding"
+    }
+   ]
+  },
+  {
+   "name": "Cannondale",
+   "country": "US",
+   "models": [
+    {
+     "name": "SuperSix EVO",
+     "type": "road"
+    },
+    {
+     "name": "CAAD13",
+     "type": "road"
+    },
+    {
+     "name": "CAAD Optimo",
+     "type": "road"
+    },
+    {
+     "name": "Synapse",
+     "type": "road"
+    },
+    {
+     "name": "SystemSix",
+     "type": "road"
+    },
+    {
+     "name": "Topstone",
+     "type": "gravel"
+    },
+    {
+     "name": "SuperX",
+     "type": "gravel"
+    },
+    {
+     "name": "Quick",
+     "type": "city"
+    },
+    {
+     "name": "Treadwell",
+     "type": "city"
+    },
+    {
+     "name": "Trail",
+     "type": "mtb"
+    },
+    {
+     "name": "Scalpel",
+     "type": "mtb"
+    },
+    {
+     "name": "F-Si",
+     "type": "mtb"
+    },
+    {
+     "name": "Habit",
+     "type": "mtb"
+    },
+    {
+     "name": "Jekyll",
+     "type": "mtb"
+    },
+    {
+     "name": "Moterra",
+     "type": "ebike"
+    }
+   ]
+  },
+  {
+   "name": "Canyon",
+   "country": "DE",
+   "models": [
+    {
+     "name": "Aeroad",
+     "type": "road"
+    },
+    {
+     "name": "Ultimate",
+     "type": "road"
+    },
+    {
+     "name": "Endurace",
+     "type": "road"
+    },
+    {
+     "name": "Speedmax",
+     "type": "road"
+    },
+    {
+     "name": "Grail",
+     "type": "gravel"
+    },
+    {
+     "name": "Grizl",
+     "type": "gravel"
+    },
+    {
+     "name": "Roadlite",
+     "type": "city"
+    },
+    {
+     "name": "Pathlite",
+     "type": "city"
+    },
+    {
+     "name": "Commuter",
+     "type": "city"
+    },
+    {
+     "name": "Lux",
+     "type": "mtb"
+    },
+    {
+     "name": "Neuron",
+     "type": "mtb"
+    },
+    {
+     "name": "Spectral",
+     "type": "mtb"
+    },
+    {
+     "name": "Strive",
+     "type": "mtb"
+    },
+    {
+     "name": "Torque",
+     "type": "mtb"
+    },
+    {
+     "name": "Exceed",
+     "type": "mtb"
+    },
+    {
+     "name": "Grand Canyon",
+     "type": "mtb"
+    },
+    {
+     "name": "Stoic",
+     "type": "mtb"
+    }
+   ]
+  },
+  {
+   "name": "Cervélo",
+   "country": "CA",
+   "models": [
+    {
+     "name": "S5",
+     "type": "road"
+    },
+    {
+     "name": "R5",
+     "type": "road"
+    },
+    {
+     "name": "Caledonia",
+     "type": "road"
+    },
+    {
+     "name": "Soloist",
+     "type": "road"
+    },
+    {
+     "name": "P5",
+     "type": "road"
+    },
+    {
+     "name": "Áspero",
+     "type": "gravel"
+    }
+   ]
+  },
+  {
+   "name": "Colnago",
+   "country": "IT",
+   "models": [
+    {
+     "name": "V4Rs",
+     "type": "road"
+    },
+    {
+     "name": "V3",
+     "type": "road"
+    },
+    {
+     "name": "C68",
+     "type": "road"
+    },
+    {
+     "name": "Y1Rs",
+     "type": "road"
+    },
+    {
+     "name": "G3-X",
+     "type": "gravel"
+    }
+   ]
+  },
+  {
+   "name": "Cube",
+   "country": "DE",
+   "models": [
+    {
+     "name": "Agree",
+     "type": "road"
+    },
+    {
+     "name": "Attain",
+     "type": "road"
+    },
+    {
+     "name": "Litening",
+     "type": "road"
+    },
+    {
+     "name": "Nuroad",
+     "type": "gravel"
+    },
+    {
+     "name": "Nature",
+     "type": "city"
+    },
+    {
+     "name": "Kathmandu",
+     "type": "city"
+    },
+    {
+     "name": "Aim",
+     "type": "mtb"
+    },
+    {
+     "name": "Analog",
+     "type": "mtb"
+    },
+    {
+     "name": "Attention",
+     "type": "mtb"
+    },
+    {
+     "name": "Reaction",
+     "type": "mtb"
+    },
+    {
+     "name": "Stereo",
+     "type": "mtb"
+    },
+    {
+     "name": "AMS",
+     "type": "mtb"
+    }
+   ]
+  },
+  {
+   "name": "Dahon",
+   "country": "US",
+   "models": [
+    {
+     "name": "Mu",
+     "type": "folding"
+    },
+    {
+     "name": "Vitesse",
+     "type": "folding"
+    },
+    {
+     "name": "Speed",
+     "type": "folding"
+    },
+    {
+     "name": "Curve",
+     "type": "folding"
+    },
+    {
+     "name": "Launch",
+     "type": "folding"
+    },
+    {
+     "name": "K3",
+     "type": "folding"
+    },
+    {
+     "name": "Boardwalk",
+     "type": "folding"
+    }
+   ]
+  },
+  {
+   "name": "Element",
+   "country": "ID",
+   "models": [
+    {
+     "name": "Ecosmo",
+     "type": "folding"
+    },
+    {
+     "name": "Troy",
+     "type": "folding"
+    }
+   ]
+  },
+  {
+   "name": "Factor",
+   "country": "GB",
+   "models": [
+    {
+     "name": "Ostro VAM",
+     "type": "road"
+    },
+    {
+     "name": "O2 VAM",
+     "type": "road"
+    },
+    {
+     "name": "Monza",
+     "type": "road"
+    },
+    {
+     "name": "LS",
+     "type": "gravel"
+    }
+   ]
+  },
+  {
+   "name": "Fnhon",
+   "country": "CN",
+   "models": []
+  },
+  {
+   "name": "Fuji",
+   "country": "US",
+   "models": [
+    {
+     "name": "Transonic",
+     "type": "road"
+    },
+    {
+     "name": "SL",
+     "type": "road"
+    },
+    {
+     "name": "Sportif",
+     "type": "road"
+    },
+    {
+     "name": "Jari",
+     "type": "gravel"
+    },
+    {
+     "name": "Absolute",
+     "type": "city"
+    },
+    {
+     "name": "Nevada",
+     "type": "mtb"
+    }
+   ]
+  },
+  {
+   "name": "Genio",
+   "country": "ID",
+   "models": []
+  },
+  {
+   "name": "Giant",
+   "country": "TW",
+   "models": [
+    {
+     "name": "TCR",
+     "type": "road"
+    },
+    {
+     "name": "Propel",
+     "type": "road"
+    },
+    {
+     "name": "Defy",
+     "type": "road"
+    },
+    {
+     "name": "Contend",
+     "type": "road"
+    },
+    {
+     "name": "Revolt",
+     "type": "gravel"
+    },
+    {
+     "name": "FastRoad",
+     "type": "city"
+    },
+    {
+     "name": "Escape",
+     "type": "city"
+    },
+    {
+     "name": "Talon",
+     "type": "mtb"
+    },
+    {
+     "name": "ATX",
+     "type": "mtb"
+    },
+    {
+     "name": "Fathom",
+     "type": "mtb"
+    },
+    {
+     "name": "XTC",
+     "type": "mtb"
+    },
+    {
+     "name": "Anthem",
+     "type": "mtb"
+    },
+    {
+     "name": "Trance",
+     "type": "mtb"
+    },
+    {
+     "name": "Stance",
+     "type": "mtb"
+    },
+    {
+     "name": "Reign",
+     "type": "mtb"
+    },
+    {
+     "name": "Glory",
+     "type": "mtb"
+    }
+   ]
+  },
+  {
+   "name": "Java",
+   "country": "CN",
+   "models": []
+  },
+  {
+   "name": "Kona",
+   "country": "CA",
+   "models": [
+    {
+     "name": "Rove",
+     "type": "gravel"
+    },
+    {
+     "name": "Sutra",
+     "type": "gravel"
+    },
+    {
+     "name": "Libre",
+     "type": "gravel"
+    },
+    {
+     "name": "Dew",
+     "type": "city"
+    },
+    {
+     "name": "Process",
+     "type": "mtb"
+    },
+    {
+     "name": "Honzo",
+     "type": "mtb"
+    },
+    {
+     "name": "Lava Dome",
+     "type": "mtb"
+    },
+    {
+     "name": "Mahuna",
+     "type": "mtb"
+    }
+   ]
+  },
+  {
+   "name": "Lapierre",
+   "country": "FR",
+   "models": [
+    {
+     "name": "Xelius",
+     "type": "road"
+    },
+    {
+     "name": "Aircode",
+     "type": "road"
+    },
+    {
+     "name": "Pulsium",
+     "type": "road"
+    },
+    {
+     "name": "Crosshill",
+     "type": "gravel"
+    },
+    {
+     "name": "Edge",
+     "type": "mtb"
+    },
+    {
+     "name": "XR",
+     "type": "mtb"
+    },
+    {
+     "name": "Zesty",
+     "type": "mtb"
+    },
+    {
+     "name": "Spicy",
+     "type": "mtb"
+    },
+    {
+     "name": "Overvolt",
+     "type": "ebike"
+    }
+   ]
+  },
+  {
+   "name": "Liv",
+   "country": "TW",
+   "models": [
+    {
+     "name": "Langma",
+     "type": "road"
+    },
+    {
+     "name": "EnviLiv",
+     "type": "road"
+    },
+    {
+     "name": "Avail",
+     "type": "road"
+    },
+    {
+     "name": "Devote",
+     "type": "gravel"
+    },
+    {
+     "name": "Tempt",
+     "type": "mtb"
+    },
+    {
+     "name": "Embolden",
+     "type": "mtb"
+    },
+    {
+     "name": "Intrigue",
+     "type": "mtb"
+    },
+    {
+     "name": "Pique",
+     "type": "mtb"
+    }
+   ]
+  },
+  {
+   "name": "Look",
+   "country": "FR",
+   "models": [
+    {
+     "name": "795 Blade",
+     "type": "road"
+    },
+    {
+     "name": "785 Huez",
+     "type": "road"
+    },
+    {
+     "name": "765 Optimum",
+     "type": "road"
+    }
+   ]
+  },
+  {
+   "name": "Marin",
+   "country": "US",
+   "models": [
+    {
+     "name": "Four Corners",
+     "type": "gravel"
+    },
+    {
+     "name": "Gestalt",
+     "type": "gravel"
+    },
+    {
+     "name": "Nicasio",
+     "type": "gravel"
+    },
+    {
+     "name": "DSX",
+     "type": "gravel"
+    },
+    {
+     "name": "Fairfax",
+     "type": "city"
+    },
+    {
+     "name": "Muirwoods",
+     "type": "city"
+    },
+    {
+     "name": "San Quentin",
+     "type": "city"
+    },
+    {
+     "name": "Bobcat Trail",
+     "type": "mtb"
+    },
+    {
+     "name": "Wildcat Trail",
+     "type": "mtb"
+    },
+    {
+     "name": "Rift Zone",
+     "type": "mtb"
+    },
+    {
+     "name": "Alpine Trail",
+     "type": "mtb"
+    },
+    {
+     "name": "Pine Mountain",
+     "type": "mtb"
+    }
+   ]
+  },
+  {
+   "name": "Merida",
+   "country": "TW",
+   "models": [
+    {
+     "name": "Scultura",
+     "type": "road"
+    },
+    {
+     "name": "Reacto",
+     "type": "road"
+    },
+    {
+     "name": "Scultura Endurance",
+     "type": "road"
+    },
+    {
+     "name": "Silex",
+     "type": "gravel"
+    },
+    {
+     "name": "Mission CX",
+     "type": "gravel"
+    },
+    {
+     "name": "Crossway",
+     "type": "city"
+    },
+    {
+     "name": "Speeder",
+     "type": "city"
+    },
+    {
+     "name": "Big.Nine",
+     "type": "mtb"
+    },
+    {
+     "name": "Big.Seven",
+     "type": "mtb"
+    },
+    {
+     "name": "Ninety-Six",
+     "type": "mtb"
+    },
+    {
+     "name": "One-Forty",
+     "type": "mtb"
+    },
+    {
+     "name": "One-Sixty",
+     "type": "mtb"
+    },
+    {
+     "name": "eOne-Sixty",
+     "type": "ebike"
+    }
+   ]
+  },
+  {
+   "name": "Orbea",
+   "country": "ES",
+   "models": [
+    {
+     "name": "Orca",
+     "type": "road"
+    },
+    {
+     "name": "Orca Aero",
+     "type": "road"
+    },
+    {
+     "name": "Avant",
+     "type": "road"
+    },
+    {
+     "name": "Terra",
+     "type": "gravel"
+    },
+    {
+     "name": "Vector",
+     "type": "city"
+    },
+    {
+     "name": "Carpe",
+     "type": "city"
+    },
+    {
+     "name": "Alma",
+     "type": "mtb"
+    },
+    {
+     "name": "Oiz",
+     "type": "mtb"
+    },
+    {
+     "name": "Occam",
+     "type": "mtb"
+    },
+    {
+     "name": "Rallon",
+     "type": "mtb"
+    },
+    {
+     "name": "Laufey",
+     "type": "mtb"
+    },
+    {
+     "name": "Rise",
+     "type": "ebike"
+    },
+    {
+     "name": "Gain",
+     "type": "ebike"
+    }
+   ]
+  },
+  {
+   "name": "Pacific",
+   "country": "ID",
+   "models": [
+    {
+     "name": "Invert",
+     "type": "mtb"
+    },
+    {
+     "name": "Exotic",
+     "type": "mtb"
+    },
+    {
+     "name": "Fastron",
+     "type": "mtb"
+    },
+    {
+     "name": "Skeleton",
+     "type": "mtb"
+    },
+    {
+     "name": "Aviator",
+     "type": "mtb"
+    },
+    {
+     "name": "Clarion",
+     "type": "mtb"
+    },
+    {
+     "name": "Analog",
+     "type": "folding"
+    }
+   ]
+  },
+  {
+   "name": "Pinarello",
+   "country": "IT",
+   "models": [
+    {
+     "name": "Dogma F",
+     "type": "road"
+    },
+    {
+     "name": "Prince",
+     "type": "road"
+    },
+    {
+     "name": "Paris",
+     "type": "road"
+    },
+    {
+     "name": "F5",
+     "type": "road"
+    },
+    {
+     "name": "F7",
+     "type": "road"
+    },
+    {
+     "name": "F9",
+     "type": "road"
+    },
+    {
+     "name": "Grevil",
+     "type": "gravel"
+    }
+   ]
+  },
+  {
+   "name": "Polygon",
+   "country": "ID",
+   "models": [
+    {
+     "name": "Strattos",
+     "type": "road"
+    },
+    {
+     "name": "Helios",
+     "type": "road"
+    },
+    {
+     "name": "Bend",
+     "type": "gravel"
+    },
+    {
+     "name": "Tambora",
+     "type": "gravel"
+    },
+    {
+     "name": "Siskiu",
+     "type": "mtb"
+    },
+    {
+     "name": "Xtrada",
+     "type": "mtb"
+    },
+    {
+     "name": "Collosus",
+     "type": "mtb"
+    },
+    {
+     "name": "Heist",
+     "type": "mtb"
+    },
+    {
+     "name": "Cascade",
+     "type": "mtb"
+    },
+    {
+     "name": "Path",
+     "type": "city"
+    },
+    {
+     "name": "Gili",
+     "type": "city"
+    },
+    {
+     "name": "Zeta",
+     "type": "city"
+    },
+    {
+     "name": "Kalosi",
+     "type": "ebike"
+    }
+   ]
+  },
+  {
+   "name": "Ridley",
+   "country": "BE",
+   "models": [
+    {
+     "name": "Noah",
+     "type": "road"
+    },
+    {
+     "name": "Helium",
+     "type": "road"
+    },
+    {
+     "name": "Fenix",
+     "type": "road"
+    },
+    {
+     "name": "Kanzo",
+     "type": "gravel"
+    },
+    {
+     "name": "Grifn",
+     "type": "gravel"
+    }
+   ]
+  },
+  {
+   "name": "Santa Cruz",
+   "country": "US",
+   "models": [
+    {
+     "name": "Stigmata",
+     "type": "gravel"
+    },
+    {
+     "name": "Blur",
+     "type": "mtb"
+    },
+    {
+     "name": "Tallboy",
+     "type": "mtb"
+    },
+    {
+     "name": "Hightower",
+     "type": "mtb"
+    },
+    {
+     "name": "Megatower",
+     "type": "mtb"
+    },
+    {
+     "name": "5010",
+     "type": "mtb"
+    },
+    {
+     "name": "Nomad",
+     "type": "mtb"
+    },
+    {
+     "name": "Bronson",
+     "type": "mtb"
+    },
+    {
+     "name": "V10",
+     "type": "mtb"
+    },
+    {
+     "name": "Heckler",
+     "type": "mtb"
+    },
+    {
+     "name": "Bullit",
+     "type": "mtb"
+    }
+   ]
+  },
+  {
+   "name": "Sava",
+   "country": "CN",
+   "models": []
+  },
+  {
+   "name": "Scott",
+   "country": "CH",
+   "models": [
+    {
+     "name": "Addict",
+     "type": "road"
+    },
+    {
+     "name": "Foil",
+     "type": "road"
+    },
+    {
+     "name": "Speedster",
+     "type": "road"
+    },
+    {
+     "name": "Addict Gravel",
+     "type": "gravel"
+    },
+    {
+     "name": "Speedster Gravel",
+     "type": "gravel"
+    },
+    {
+     "name": "Sub Cross",
+     "type": "city"
+    },
+    {
+     "name": "Metrix",
+     "type": "city"
+    },
+    {
+     "name": "Scale",
+     "type": "mtb"
+    },
+    {
+     "name": "Spark",
+     "type": "mtb"
+    },
+    {
+     "name": "Aspect",
+     "type": "mtb"
+    },
+    {
+     "name": "Genius",
+     "type": "mtb"
+    },
+    {
+     "name": "Ransom",
+     "type": "mtb"
+    }
+   ]
+  },
+  {
+   "name": "Specialized",
+   "country": "US",
+   "models": [
+    {
+     "name": "Tarmac",
+     "type": "road"
+    },
+    {
+     "name": "Roubaix",
+     "type": "road"
+    },
+    {
+     "name": "Aethos",
+     "type": "road"
+    },
+    {
+     "name": "Allez",
+     "type": "road"
+    },
+    {
+     "name": "Diverge",
+     "type": "gravel"
+    },
+    {
+     "name": "Crux",
+     "type": "gravel"
+    },
+    {
+     "name": "Sirrus",
+     "type": "city"
+    },
+    {
+     "name": "Rockhopper",
+     "type": "mtb"
+    },
+    {
+     "name": "Chisel",
+     "type": "mtb"
+    },
+    {
+     "name": "Epic",
+     "type": "mtb"
+    },
+    {
+     "name": "Stumpjumper",
+     "type": "mtb"
+    },
+    {
+     "name": "Enduro",
+     "type": "mtb"
+    },
+    {
+     "name": "Demo",
+     "type": "mtb"
+    },
+    {
+     "name": "Turbo Levo",
+     "type": "ebike"
+    },
+    {
+     "name": "Turbo Vado",
+     "type": "ebike"
+    },
+    {
+     "name": "Turbo Creo",
+     "type": "ebike"
+    },
+    {
+     "name": "Turbo Como",
+     "type": "ebike"
+    }
+   ]
+  },
+  {
+   "name": "Surly",
+   "country": "US",
+   "models": [
+    {
+     "name": "Long Haul Trucker",
+     "type": "touring"
+    },
+    {
+     "name": "Disc Trucker",
+     "type": "touring"
+    },
+    {
+     "name": "Cross-Check",
+     "type": "touring"
+    },
+    {
+     "name": "Bridge Club",
+     "type": "touring"
+    },
+    {
+     "name": "Ogre",
+     "type": "touring"
+    },
+    {
+     "name": "ECR",
+     "type": "touring"
+    },
+    {
+     "name": "Big Dummy",
+     "type": "touring"
+    },
+    {
+     "name": "Straggler",
+     "type": "gravel"
+    },
+    {
+     "name": "Midnight Special",
+     "type": "gravel"
+    },
+    {
+     "name": "Karate Monkey",
+     "type": "mtb"
+    },
+    {
+     "name": "Krampus",
+     "type": "mtb"
+    },
+    {
+     "name": "Pugsley",
+     "type": "mtb"
+    },
+    {
+     "name": "Wednesday",
+     "type": "mtb"
+    },
+    {
+     "name": "Ice Cream Truck",
+     "type": "mtb"
+    }
+   ]
+  },
+  {
+   "name": "Tern",
+   "country": "TW",
+   "models": [
+    {
+     "name": "Verge",
+     "type": "folding"
+    },
+    {
+     "name": "Link",
+     "type": "folding"
+    },
+    {
+     "name": "BYB",
+     "type": "folding"
+    },
+    {
+     "name": "Eclipse",
+     "type": "folding"
+    },
+    {
+     "name": "Vektron",
+     "type": "folding"
+    },
+    {
+     "name": "Node",
+     "type": "folding"
+    },
+    {
+     "name": "GSD",
+     "type": "ebike"
+    },
+    {
+     "name": "HSD",
+     "type": "ebike"
+    }
+   ]
+  },
+  {
+   "name": "Thrill",
+   "country": "ID",
+   "models": []
+  },
+  {
+   "name": "Trek",
+   "country": "US",
+   "models": [
+    {
+     "name": "Domane",
+     "type": "road"
+    },
+    {
+     "name": "Émonda",
+     "type": "road"
+    },
+    {
+     "name": "Madone",
+     "type": "road"
+    },
+    {
+     "name": "Checkpoint",
+     "type": "gravel"
+    },
+    {
+     "name": "Boone",
+     "type": "gravel"
+    },
+    {
+     "name": "FX",
+     "type": "city"
+    },
+    {
+     "name": "Dual Sport",
+     "type": "city"
+    },
+    {
+     "name": "Verve",
+     "type": "city"
+    },
+    {
+     "name": "Marlin",
+     "type": "mtb"
+    },
+    {
+     "name": "Roscoe",
+     "type": "mtb"
+    },
+    {
+     "name": "X-Caliber",
+     "type": "mtb"
+    },
+    {
+     "name": "Procaliber",
+     "type": "mtb"
+    },
+    {
+     "name": "Supercaliber",
+     "type": "mtb"
+    },
+    {
+     "name": "Top Fuel",
+     "type": "mtb"
+    },
+    {
+     "name": "Fuel EX",
+     "type": "mtb"
+    },
+    {
+     "name": "Slash",
+     "type": "mtb"
+    },
+    {
+     "name": "Session",
+     "type": "mtb"
+    },
+    {
+     "name": "Rail",
+     "type": "ebike"
+    },
+    {
+     "name": "Allant+",
+     "type": "ebike"
+    },
+    {
+     "name": "Powerfly",
+     "type": "ebike"
+    }
+   ]
+  },
+  {
+   "name": "Twitter",
+   "country": "CN",
+   "models": []
+  },
+  {
+   "name": "United",
+   "country": "ID",
+   "models": [
+    {
+     "name": "Stygma",
+     "type": "road"
+    },
+    {
+     "name": "Detroit",
+     "type": "mtb"
+    },
+    {
+     "name": "Dallas",
+     "type": "mtb"
+    },
+    {
+     "name": "Clovis",
+     "type": "mtb"
+    },
+    {
+     "name": "Trifold",
+     "type": "folding"
+    },
+    {
+     "name": "Stylo",
+     "type": "folding"
+    },
+    {
+     "name": "Black Horse X",
+     "type": "folding"
+    },
+    {
+     "name": "e-Trifold",
+     "type": "ebike"
+    }
+   ]
+  },
+  {
+   "name": "Wilier",
+   "country": "IT",
+   "models": [
+    {
+     "name": "Filante",
+     "type": "road"
+    },
+    {
+     "name": "Cento10",
+     "type": "road"
+    },
+    {
+     "name": "Zero",
+     "type": "road"
+    },
+    {
+     "name": "Granturismo",
+     "type": "road"
+    },
+    {
+     "name": "Rave",
+     "type": "gravel"
+    },
+    {
+     "name": "Jena",
+     "type": "gravel"
+    },
+    {
+     "name": "Adlar",
+     "type": "gravel"
+    }
+   ]
+  },
+  {
+   "name": "Wimcycle",
+   "country": "ID",
+   "models": []
+  }
+ ]
+}

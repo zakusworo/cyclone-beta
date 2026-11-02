@@ -6,6 +6,26 @@ the app also offers each new version as a notification.
 Version numbers are **major.minor.patch**: the last number goes up for very small changes and fixes, the
 middle one for small updates, the first one for major updates.
 
+## 0.14.0 · 2026-11-02
+
+**New**
+- **Android 8.0 (Oreo) and newer** can now install Cyclone; before, it needed Android 10. On Android 8 and 9
+  the Strava (web) button asks once for storage access, to save the ride into the Download folder.
+- **Gear**: your bikes, each with a photo. Only the type is needed; brand, model, year, weight, tyre size and
+  km ridden before Cyclone are optional. Brands and models come from a list that grows without an app
+  update; a bike that is not in it can be typed in and suggested (only brand, model, year and type are sent).
+- Each bike keeps its own tyre size (for speed from a wheel sensor) and its own speed and cadence sensors.
+  Heart rate and power sensors stay with you. **Ride this bike** switches before a ride; every ride is
+  counted for the bike it was ridden on, so each bike shows its own km and rides.
+- **Stats & goals**: up to four goals (distance, riding time, climbing or rides, per week, month or year)
+  with a progress ring and the pace still needed. This week / month / year against the last, a bar chart,
+  weekly streaks, and km per bike. The Stats tile on the home screen shows your first goal.
+
+**Changed**
+- 0.13.0 was not released on its own; its Gear and Stats are part of this version.
+- The home screen has two more tiles (Stats, Gear); long tile names shrink to fit.
+- Your current settings become your first bike automatically, so nothing changes until you open Gear.
+
 ## 0.12.1 · 2026-11-02
 
 **Changed**

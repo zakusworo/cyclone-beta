@@ -8,7 +8,7 @@ This repository only hands out the beta builds. The app's source code is not her
 
 ## Install
 
-1. Needs Android 10 or newer. Any phone works; ANT+ sensors need a phone with ANT+ (most pair over
+1. Needs Android 8.0 (Oreo) or newer. Any phone works; ANT+ sensors need a phone with ANT+ (most pair over
    Bluetooth instead).
 2. On the phone, open **https://github.com/zakusworo/cyclone-beta/releases/latest/download/cyclone.apk**
    (always the newest version, about 6 MB). Wait until the download has finished, then open it. Android
@@ -37,7 +37,7 @@ This repository only hands out the beta builds. The app's source code is not her
 
 ## Updates
 
-What changed in each version: [CHANGELOG.md](CHANGELOG.md).
+How to use every screen: [TUTORIAL.md](TUTORIAL.md). What changed in each version: [CHANGELOG.md](CHANGELOG.md).
 
 Cyclone checks this repository twice a day and shows a notification when a new beta is out. Tap it
 to download and install; Android asks you to confirm, and the first time to allow Cyclone to install
