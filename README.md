@@ -10,8 +10,13 @@ This repository only hands out the beta builds. The app's source code is not her
 
 1. Needs Android 10 or newer. Any phone works; ANT+ sensors need a phone with ANT+ (most pair over
    Bluetooth instead).
-2. Download the newest `cyclone-x.y.z.apk` from [Releases](https://github.com/zakusworo/cyclone-beta/releases/latest)
-   on the phone and open it. Android asks once to allow installing apps from your browser.
+2. On the phone, open **https://github.com/zakusworo/cyclone-beta/releases/latest/download/cyclone.apk**
+   (always the newest version, about 6 MB). Wait until the download has finished, then open it. Android
+   asks once to allow installing apps from your browser.
+
+   "There was a problem parsing the package" means the file is incomplete or is not the app: delete it
+   and download again, on Wi-Fi if you can. On the [Releases](https://github.com/zakusworo/cyclone-beta/releases/latest)
+   page, take the `.apk` file, not "Source code".
 3. Open Cyclone, allow location (and "Nearby devices" for Bluetooth sensors).
 4. **Options → Offline maps → Find maps for my location** to download the map for your area (pick
    the smallest one that covers where you ride; Wi-Fi recommended).
