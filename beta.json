@@ -1,16 +1,15 @@
 {
   "latest": {
-    "versionCode": 20,
-    "versionName": "0.12.0",
+    "versionCode": 21,
+    "versionName": "0.12.1",
     "minSdk": 29,
     "date": "2026-11-02",
-    "apk": "https://github.com/zakusworo/cyclone-beta/releases/download/v0.12.0/cyclone-0.12.0.apk",
-    "size": 5964125,
-    "sha256": "eb6d0d11c23a7f9ce7927b4cadc847c5d3d74b763627d231e07be02423db47c6",
+    "apk": "https://github.com/zakusworo/cyclone-beta/releases/download/v0.12.1/cyclone-0.12.1.apk",
+    "size": 5964625,
+    "sha256": "16091e87a98e7d9f127f534d6f3ec5ecfbdb16d307c6f929f138020db5a803cc",
     "notes": [
-      "Problem reports: if Cyclone closes unexpectedly, it notes what happened and offers to send a report.",
-      "Send it from Options → Beta & updates → Send problem report: your e-mail app opens addressed to Cyclone support with the report attached.",
-      "Reports hold Cyclone's log and phone model, not your rides; nothing is sent until you press Send."
+      "One tap to update: Check & update now downloads and installs a new version straight away (from the next update on).",
+      "Problem reports (0.12.0): Options → Beta & updates → Send problem report e-mails the report to Cyclone support."
     ]
   },
   "messages": [

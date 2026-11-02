@@ -6,6 +6,13 @@ the app also offers each new version as a notification.
 Version numbers are **major.minor.patch**: the last number goes up for very small changes and fixes, the
 middle one for small updates, the first one for major updates.
 
+## 0.12.1 · 2026-11-02
+
+**Changed**
+- One tap to update: **Options → Beta & updates → Check & update** checks for a new version and, if there
+  is one, downloads and installs it straight away (Android still asks you to confirm). Before, a second
+  tap was needed. This works from the next update after 0.12.1.
+
 ## 0.12.0 · 2026-11-02
 
 **New**
