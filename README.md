@@ -38,7 +38,12 @@ apps. You can also check by hand in **Options → Beta & updates**. Rides and se
 
 ## Found a problem?
 
-Open an [issue](https://github.com/zakusworo/cyclone-beta/issues/new). Say what you did, what
+**Cyclone closed by itself or froze?** Go to **Options → Beta & updates → Send problem report** (or tap the
+"Cyclone closed unexpectedly" notification). Your e-mail app opens addressed to Cyclone support
+(cyclonebikeco@gmail.com) with the report attached; press Send. The report holds Cyclone's own log, phone
+model, app version and the active route's name, not your rides.
+
+For anything else, open an [issue](https://github.com/zakusworo/cyclone-beta/issues/new). Say what you did, what
 happened and what you expected. **Options → Beta & updates → Copy phone details** gives the app
 version, phone model and Android version to paste in. A ride's .fit file helps a lot
 (History → the ride → share).
