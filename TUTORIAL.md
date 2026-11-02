@@ -424,7 +424,7 @@ The same screen shows **Messages** from the developer.
 
 **"There was a problem parsing the package" when installing.**
 The download is incomplete or isn't the app. Delete it and download again, on Wi-Fi if you can. On the
-Releases page, take the `.apk` file, not "Source code".
+Releases page, take `cyclone.apk`, not "Source code".
 
 **The recorded track has gaps or straight lines.**
 Cyclone isn't exempt from battery optimisation. See [section 1](#stop-android-from-cutting-your-recording),

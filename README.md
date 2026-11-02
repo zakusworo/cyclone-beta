@@ -8,15 +8,19 @@ This repository only hands out the beta builds. The app's source code is not her
 
 ## Install
 
-1. Needs Android 8.0 (Oreo) or newer. Any phone works; ANT+ sensors need a phone with ANT+ (most pair over
-   Bluetooth instead).
-2. On the phone, open **https://github.com/zakusworo/cyclone-beta/releases/latest/download/cyclone.apk**
-   (always the newest version, about 6 MB). Wait until the download has finished, then open it. Android
-   asks once to allow installing apps from your browser.
+### ⬇ [Download the latest Cyclone](https://github.com/zakusworo/cyclone-beta/releases/latest/download/cyclone.apk)
 
-   "There was a problem parsing the package" means the file is incomplete or is not the app: delete it
-   and download again, on Wi-Fi if you can. On the [Releases](https://github.com/zakusworo/cyclone-beta/releases/latest)
-   page, take the `.apk` file, not "Source code".
+This link always gives the newest version: one file, `cyclone.apk` (about 3 MB). Needs **Android 8.0 (Oreo)
+or newer**. Any phone works; ANT+ sensors need a phone with ANT+ (most pair over Bluetooth instead).
+
+1. Open the link above **on the phone**. Wait until the download has finished, then open `cyclone.apk`.
+   Android asks once to allow installing apps from your browser.
+
+   "There was a problem parsing the package" means the download is incomplete: delete it and download
+   again, on Wi-Fi if you can. If you go through the [Releases](https://github.com/zakusworo/cyclone-beta/releases/latest)
+   page instead, take `cyclone.apk`, not "Source code".
+2. Already have Cyclone? You don't need this link: the app tells you when a new version is out (see
+   [Updates](#updates)).
 3. Open Cyclone, allow location (and "Nearby devices" for Bluetooth sensors).
 4. **Options → Offline maps → Find maps for my location** to download the map for your area (pick
    the smallest one that covers where you ride; Wi-Fi recommended).
@@ -52,8 +56,8 @@ model, app version and the active route's name, not your rides.
 
 For anything else, open an [issue](https://github.com/zakusworo/cyclone-beta/issues/new). Say what you did, what
 happened and what you expected. **Options → Beta & updates → Copy phone details** gives the app
-version, phone model and Android version to paste in. A ride's .fit file helps a lot
-(History → the ride → share).
+version, phone model and Android version to paste in. A ride's .fit file helps a lot:
+open the ride in History, tap **Strava (web)**, and attach the copy it saves in Download/Cyclone.
 
 Maps: © OpenStreetMap contributors, built by the [Mapsforge](https://github.com/mapsforge/mapsforge) project.
 Bike routing: the [BRouter](https://github.com/abrensch/brouter) engine (MIT licence) with routing data
