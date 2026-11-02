@@ -1,19 +1,18 @@
 {
   "latest": {
-    "versionCode": 18,
-    "versionName": "0.10.0",
+    "versionCode": 19,
+    "versionName": "0.11.0",
     "minSdk": 29,
-    "date": "2026-11-01",
-    "apk": "https://github.com/zakusworo/cyclone-beta/releases/download/v0.10.0/cyclone-0.10.0.apk",
-    "size": 5592691,
-    "sha256": "9cfc500ace30a7dcde45a3aaa9f3bc9456b56417924d3cf3df982fe88149b47b",
+    "date": "2026-11-02",
+    "apk": "https://github.com/zakusworo/cyclone-beta/releases/download/v0.11.0/cyclone-0.11.0.apk",
+    "size": 5941401,
+    "sha256": "2bf2ec04529fd5cded9566d3c969e201127ee5f900427c5955a4a47dae6aef7e",
     "notes": [
-      "First beta.",
-      "Offline maps: find and download the map for where you are (Options → Offline maps).",
-      "Recording stays at one point per second with the screen off.",
-      "Fastest 5 km / 10 km times fixed.",
-      "Height above sea level corrected on Android 13 and older.",
-      "Rider & zones, auto-pause and sounds are now in Options."
+      "Routes from Google Maps: plan the route, tap Share and pick Cyclone route.",
+      "Import KML and KMZ (Google My Maps, Google Earth) as well as GPX.",
+      "Bike routing built in: the way back when you leave your route works offline, no extra app.",
+      "Speed bar no longer fills up at 40 km/h; it starts at 60 and grows.",
+      "Beta & updates says at once when there is no internet."
     ]
   },
   "messages": [
@@ -23,6 +22,13 @@
       "title": "Welcome to the Cyclone beta",
       "text": "Thanks for testing Cyclone! To get started: download the map for your area (Options → Offline maps), and turn off battery optimisation for Cyclone (Options → This phone) so rides record smoothly with the screen off. New versions show up here as a notification. Found a bug or have an idea? Options → Beta & updates → Report on GitHub. Ride safe!",
       "url": "https://github.com/zakusworo/cyclone-beta#install"
+    },
+    {
+      "id": "2026-11-02-google-maps-routes",
+      "date": "2026-11-02",
+      "title": "New in 0.11: routes from Google Maps",
+      "text": "Update to 0.11.0, then try it: plan a route in Google Maps (motorbike mode works well), tap Share and pick Cyclone route. A start and a destination are enough; add stops to steer the route along the roads you want. Cyclone draws a bike route through your stops, with climbs and turn-by-turn. The way back when you leave the route now works offline with no extra app: the routing data for your area (about 40 MB) downloads by itself on Wi-Fi. The speed bar also no longer fills up at 40 km/h. Tell us how it goes: Options → Beta & updates → Report on GitHub.",
+      "url": "https://github.com/zakusworo/cyclone-beta/releases/tag/v0.11.0"
     }
   ]
 }

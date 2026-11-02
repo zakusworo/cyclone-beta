@@ -18,6 +18,18 @@ This repository only hands out the beta builds. The app's source code is not her
 5. **Options → This phone:** turn battery optimisation off for Cyclone, or Android may thin out the
    recording while the screen is off.
 
+## Routes
+
+- **From Google Maps:** plan the route (any mode; motorbike works well), tap **Share** and pick
+  **Cyclone route**, or copy the link and press **Paste Google Maps link** on Routes. A start and a
+  destination are enough; add stops to steer the route along the roads you want. Google's link holds
+  your stops but not its line, so Cyclone draws a bike route through them.
+- **Files:** GPX, KML or KMZ (Google My Maps, Google Earth, Komoot, RideWithGPS…): Routes → Import file,
+  or "Open with" / "Share" to Cyclone.
+- **Off course:** Cyclone finds the way back offline. It needs the routing data for the area (about
+  40 MB per 5°×5° square), which downloads by itself on Wi-Fi when you pick a route, or with the button
+  on Routes.
+
 ## Updates
 
 Cyclone checks this repository twice a day and shows a notification when a new beta is out. Tap it
@@ -32,3 +44,5 @@ version, phone model and Android version to paste in. A ride's .fit file helps a
 (History → the ride → share).
 
 Maps: © OpenStreetMap contributors, built by the [Mapsforge](https://github.com/mapsforge/mapsforge) project.
+Bike routing: the [BRouter](https://github.com/abrensch/brouter) engine (MIT licence) with routing data
+from brouter.de, built from OpenStreetMap.
