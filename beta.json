@@ -1,16 +1,17 @@
 {
   "latest": {
-    "versionCode": 23,
-    "versionName": "0.14.0",
+    "versionCode": 24,
+    "versionName": "0.14.1",
     "minSdk": 26,
-    "date": "2026-11-02",
-    "apk": "https://github.com/zakusworo/cyclone-beta/releases/download/v0.14.0/cyclone.apk",
-    "size": 2894011,
-    "sha256": "6cc3141109075240b0456730441d2deaeebcfa76069dcccaafaf512bbbb3945e",
+    "date": "2026-11-03",
+    "apk": "https://github.com/zakusworo/cyclone-beta/releases/download/v0.14.1/cyclone.apk",
+    "size": 2911211,
+    "sha256": "207f49acd315ee6cf0ba4047869f7d203cbd195e472ea48a42bd7b0b463c8f27",
     "notes": [
-      "Runs on Android 8.0 (Oreo) and newer.",
-      "Gear: your bikes with photos. Each bike keeps its own tyre size, speed/cadence sensors and km.",
-      "Stats & goals: set a weekly, monthly or yearly target and see how far along you are, with streaks and this week/month/year against the last."
+      "Day and night colours for the whole app: black on white for direct sunlight, switching by itself at sunrise and sunset (Options → Ride options → Colours, or tap the clock while riding).",
+      "Distance without a speed sensor is now measured along the GPS track: about 10 % more, close to a Coros Nomad. Speed is smoothed the way Strava does it, so the numbers match.",
+      "GPS jumps are filtered out of the track line; loop routes no longer show 0 km to go at the start.",
+      "Rides recorded without altitude get it from terrain data before going to Strava, so elevation is no longer 0 m."
     ]
   },
   "messages": [
@@ -41,6 +42,13 @@
       "title": "New in 0.13: Gear and Stats",
       "text": "Two new tiles on the home screen. Gear: add your bike (type is enough; brand, model, tyre and a photo are optional). The tyre size sets the speed from a wheel sensor, and each bike keeps its own sensors and counts its own km. Have more than one bike? Tap Ride this bike before you set off. Stats: pick a goal, like 100 km a week, and Cyclone shows your progress and what it takes to get there, plus streaks and how this week, month or year compares with the last. Your bike not in the list? Type it in and tick Suggest; we add new bikes to the list without an app update.",
       "url": "https://github.com/zakusworo/cyclone-beta/releases/tag/v0.13.0"
+    },
+    {
+      "id": "2026-11-03-distance-colours",
+      "date": "2026-11-03",
+      "title": "New in 0.14.1: right distance, day colours",
+      "text": "Thanks to the testers who compared Cyclone with a Coros and asked about Strava! Without a speed sensor, Cyclone measured distance about 10 % short; it now follows your GPS track, drops GPS jumps, and shows speed the same way Strava does. Rides without altitude get it from terrain data before they go to Strava, so elevation is no longer 0 m. New: day colours (black on white) for riding in the sun, switching by itself at sunrise and sunset; change it in Options → Ride options → Colours, or tap the clock on the ride screen.",
+      "url": "https://github.com/zakusworo/cyclone-beta/releases/tag/v0.14.1"
     }
   ],
   "supportEmail": "cyclonebikeco@gmail.com"

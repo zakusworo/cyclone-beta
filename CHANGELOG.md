@@ -6,6 +6,36 @@ the app also offers each new version as a notification.
 Version numbers are **major.minor.patch**: the last number goes up for very small changes and fixes, the
 middle one for small updates, the first one for major updates.
 
+## 0.14.1 · 2026-11-03
+
+**New**
+- **Day and night colours for the whole app.** Day is black on white, the easiest to read in direct
+  sunlight; Night is the familiar white on black. **Auto** (the default) follows the time of day: it
+  switches at sunrise and sunset where you are (06:00 and 18:00 until the phone knows where you are),
+  worked out on the phone, no internet needed. Choose in Options → Ride options → Colours, or tap the clock
+  on the ride screen while riding (Auto → Day → Night).
+- **Smoother speed without a speed sensor**, worked out the same way Strava draws its speed (distance over
+  the last 5 seconds), so the speed and max speed in Cyclone match what Strava shows afterwards.
+
+**Fixed**
+- **Loop routes showed 0 km to go right after the start** when the route leaves and comes back on the same
+  road (and when riding the same loop twice in a day). Cyclone now takes the start, and follows you along
+  the route by distance.
+- **Distance without a speed sensor was about 10 % short.** It was the GPS speed added up second by second,
+  which phones under-read, most of all at low speed. It is now measured along your GPS track (each step
+  checked against the speed, so standing still or GPS wobble adds nothing). On a tester's Jakarta ride
+  ridden next to a Coros Nomad, the same recording gives 7.32 km instead of 6.69 km (Coros: 7.55 km,
+  started ~80 m earlier).
+- **Jumps in the track line and the speed.** A GPS position that leaps far away for a second or two (tall
+  buildings, trees, flyovers) is now dropped, and the speed can no longer jump faster than a bike can
+  speed up or brake. Very vague positions (worse than ±50 m) are left out of the track.
+- **Elevation 0 m on Strava** for phones without a barometer whose GPS gives no usable height: such rides
+  now get their altitude from terrain data (Open-Meteo, 90 m) as soon as the phone is online, before
+  Strava (web), Upload or the automatic sync sends them. Older rides get it too when you open them.
+- The ride summary says where the altitude came from (barometer, GPS or terrain data).
+- The Online screen no longer says "No SIM in this phone" to everyone; the problem-report text now points
+  to Strava (web) for saving a ride's .fit file.
+
 ## 0.14.0 · 2026-11-02
 
 **New**
