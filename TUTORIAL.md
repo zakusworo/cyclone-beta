@@ -4,7 +4,7 @@ This guide walks you through Cyclone from installing it to looking at your ride 
 an account, and most things work without internet.
 
 Screenshots come from a test phone running Android 8.0, so your phone may look a little different.
-Sections marked **(from 0.14.0)** describe features that arrive in version 0.14.0.
+Sections marked **(from 0.14.0)** or **(from 0.14.1)** describe features that arrive in that version.
 
 **Contents**
 
@@ -181,7 +181,9 @@ The bar above the buttons tells you what's happening:
 
 - **Data**: timer, distance, average and top speed, heart rate, cadence, power, ascent, altitude, distance
   to go on a route, and calories. Heart rate and power are coloured by zone once your zones are set
-  (Options → Rider & zones).
+  (Options → Rider & zones). Without a speed sensor, speed comes from GPS and is worked out the way
+  Strava does it (distance over the last 5 seconds), so it settles a few seconds after you stop and
+  matches what Strava shows later.
 - **Map**: your position, the route and the ride so far. Buttons on the map:
   **+** and **−** zoom, **◎** follows your position again after you've moved the map,
   **N / ▲** switches between north up (**N**) and the map turning with your direction (**▲**), and the
@@ -193,6 +195,18 @@ The bar above the buttons tells you what's happening:
   along the route at the time you'll get there, and stops along the route such as water, minimarkets,
   fuel, mosques, toilets, bike shops and medical. This page needs to have been online once
   before the ride (Wi-Fi or a hotspot is enough).
+
+### Day and night colours (from 0.14.1)
+
+Cyclone has two looks: **Day** (black on white, the easiest to read in direct sunlight) and **Night**
+(white on black, easy on the eyes after dark and on the battery of AMOLED screens). With **Auto**, the
+default, it switches at sunrise and sunset where you are, or at 06:00 and 18:00 until the phone knows
+where you are. Every screen follows it.
+
+- **Tap the clock** at the top left of the ride screen to change it while riding: Auto → Day → Night.
+- Or set it in **Options → Colours**.
+
+<img src="docs/img/ride-day.jpg" width="260" alt="Ride screen in day colours">&nbsp;<img src="docs/img/ride-night.jpg" width="260" alt="Ride screen in night colours">
 
 ### Auto-pause, GPS sleep and screen-off recording
 
@@ -278,6 +292,11 @@ More workouts:
 When you stop a ride (**Hold to stop** or hold **Vol−**), the summary opens by itself. It shows the totals,
 the track, elevation, speed, heart rate and power over distance, time in each zone, best efforts, climbs
 and laps.
+
+Under the totals, **Altitude** says where the heights came from: the **barometer**, **GPS**, or **terrain
+data**. Some phones without a barometer record no usable height at all; from 0.14.1 such a ride gets its
+altitude from terrain data (Open-Meteo) as soon as the phone is online, before it goes to Strava or
+Intervals.icu, so its elevation is no longer 0 m.
 
 At the bottom, under **Send**:
 
@@ -382,6 +401,7 @@ The **Stats** tile on the home screen shows your first goal.
 - **Zone alerts**: a warning when heart rate or power stays outside your target zone.
 - **Sounds**: for start, stop, lap, eat, drink, zone high and zone low. Tap the choice to switch between
   **Anime voice**, **Beep**, **Custom file** and **Off**. **►** plays it, **File** picks your own sound.
+- **Colours** (from 0.14.1): **Auto**, **Day** or **Night**, see [Day and night colours](#day-and-night-colours-from-0141).
 - **Battery saver**: dims the ride screen and lets it turn off with the phone's screen timeout. GPS then
   updates every 2 s. Laps, reminders, alerts and going off course turn the screen back on. The volume
   keys don't work while the screen is off.
@@ -441,6 +461,15 @@ cycling apps.
 
 **Speed from my wheel sensor is wrong.**
 Set the right tyre size: in **Gear → Edit** from 0.14.0, otherwise in **Sensors → Wheel circumference (mm)**.
+
+**My distance is shorter (or longer) than my watch or another bike computer.**
+A phone's GPS is not as good as a dedicated unit's, and each device smooths its track differently, so 2–3 %
+is normal. Before 0.14.1, Cyclone read about 10 % short without a speed sensor; update if you are on an older
+version. A wheel speed sensor with the right tyre size gives the most exact distance.
+
+**Strava shows 0 m elevation.**
+Update to 0.14.1 or newer: rides recorded without altitude then get it from terrain data before they are
+sent. For a ride already on Strava, open it on strava.com and look for **Correct Elevation** in the **…** menu.
 
 **The volume keys do nothing.**
 The screen has to be on and the ride screen open. With **Battery saver** on, the screen may have timed out.
