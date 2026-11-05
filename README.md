@@ -19,7 +19,11 @@ Free beta · no account · no ads · about 3 MB
 
 </div>
 
-## What's new in 0.14.1
+## What's new in 0.14.2
+
+- **Fixed: Cyclone closed every time you pressed Start** on some phones, when Android would not create Cyclone's storage folder. Rides now go to Cyclone's own storage when that happens, and History shows them as usual.
+
+From 0.14.1:
 
 - **Day and night colours.** Black on white for riding in the sun, white on black after dark. **Auto** switches at sunrise and sunset where you are.
 - **Distance without a speed sensor is right now.** Cyclone follows your GPS track instead of adding up the phone's speed, which read about 10 % short. Next to a Coros Nomad: 7.30 km against 7.55 km (the Coros started a little earlier).
