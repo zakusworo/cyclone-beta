@@ -1,17 +1,14 @@
 {
   "latest": {
-    "versionCode": 24,
-    "versionName": "0.14.1",
+    "versionCode": 25,
+    "versionName": "0.14.2",
     "minSdk": 26,
-    "date": "2026-11-03",
-    "apk": "https://github.com/zakusworo/cyclone-beta/releases/download/v0.14.1/cyclone.apk",
-    "size": 2911211,
-    "sha256": "207f49acd315ee6cf0ba4047869f7d203cbd195e472ea48a42bd7b0b463c8f27",
+    "date": "2026-11-05",
+    "apk": "https://github.com/zakusworo/cyclone-beta/releases/download/v0.14.2/cyclone.apk",
+    "size": 2911827,
+    "sha256": "5c5a7db777b0d5d1e4395dd2044acdf6790b6eec0b30c2d6abf76c1a8be9b96d",
     "notes": [
-      "Day and night colours for the whole app: black on white for direct sunlight, switching by itself at sunrise and sunset (Options → Ride options → Colours, or tap the clock while riding).",
-      "Distance without a speed sensor is now measured along the GPS track: about 10 % more, close to a Coros Nomad. Speed is smoothed the way Strava does it, so the numbers match.",
-      "GPS jumps are filtered out of the track line; loop routes no longer show 0 km to go at the start.",
-      "Rides recorded without altitude get it from terrain data before going to Strava, so elevation is no longer 0 m."
+      "Fixed: on some phones Cyclone closed every time you pressed Start because Android would not create its storage folder. Rides now go to internal storage when that happens, and History shows them as usual."
     ]
   },
   "messages": [

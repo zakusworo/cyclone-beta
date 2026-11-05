@@ -6,6 +6,15 @@ the app also offers each new version as a notification.
 Version numbers are **major.minor.patch**: the last number goes up for very small changes and fixes, the
 middle one for small updates, the first one for major updates.
 
+## 0.14.2 · 2026-11-05
+
+**Fixed**
+- **Cyclone closed every time you pressed Start** on some phones (reported on a Redmi Note 10 Pro with
+  Android 16). Android would not create Cyclone's folder in Android/data, so the ride file could not be
+  opened. Cyclone now checks that folder first and, if it isn't usable, keeps rides, routes and maps in its
+  own internal storage instead. If a ride file still can't be created, Cyclone shows a message and stays
+  ready rather than closing. Rides saved in either place show up in History.
+
 ## 0.14.1 · 2026-11-03
 
 **New**
