@@ -1,14 +1,14 @@
 {
   "latest": {
-    "versionCode": 25,
-    "versionName": "0.14.2",
+    "versionCode": 26,
+    "versionName": "0.14.3",
     "minSdk": 26,
-    "date": "2026-11-05",
-    "apk": "https://github.com/zakusworo/cyclone-beta/releases/download/v0.14.2/cyclone.apk",
-    "size": 2911827,
-    "sha256": "5c5a7db777b0d5d1e4395dd2044acdf6790b6eec0b30c2d6abf76c1a8be9b96d",
+    "date": "2026-11-06",
+    "apk": "https://github.com/zakusworo/cyclone-beta/releases/download/v0.14.3/cyclone.apk",
+    "size": 2914311,
+    "sha256": "5fc9349ffd10be1ae285400dc0d6d58837c8473d0080100bf76752cf7f3a4cea",
     "notes": [
-      "Fixed: on some phones Cyclone closed every time you pressed Start because Android would not create its storage folder. Rides now go to internal storage when that happens, and History shows them as usual."
+      "Fixed: on small screens, or with large text, the ride numbers were cut in half and the stop button read \"HOLD TO\". Numbers, labels and buttons now fit every screen size and font size, and the home screen scrolls instead of squashing its tiles."
     ]
   },
   "messages": [
@@ -53,6 +53,13 @@
       "title": "0.14.2: fix for Cyclone closing on Start",
       "text": "Thanks to the tester who sent a problem report! On some phones Cyclone closed every time you pressed Start, because Android would not create Cyclone's storage folder. 0.14.2 fixes this: rides then go to Cyclone's own storage and show up in History as usual. To update now: Options → Beta & updates → Download & install 0.14.2. If Start still fails, you'll see a message instead of a crash; please send a report from the same screen.",
       "url": "https://github.com/zakusworo/cyclone-beta/releases/tag/v0.14.2"
+    },
+    {
+      "id": "2026-11-06-fit-every-screen",
+      "date": "2026-11-06",
+      "title": "0.14.3: numbers fit every screen",
+      "text": "Thanks to the tester who sent a photo! On some phones the ride numbers were cut in half and the red button read \"HOLD TO\" without \"STOP\". It happened on smaller screens and when the phone's font size or display size is turned up. 0.14.3 sizes every number to fit its box, from small phones to tablets, and the home screen now scrolls instead of squashing its tiles. To update now: Options → Beta & updates → Download & install 0.14.3. Still see something cut off? Send a screenshot from the same screen.",
+      "url": "https://github.com/zakusworo/cyclone-beta/releases/tag/v0.14.3"
     }
   ],
   "supportEmail": "cyclonebikeco@gmail.com"

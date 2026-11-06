@@ -6,6 +6,18 @@ the app also offers each new version as a notification.
 Version numbers are **major.minor.patch**: the last number goes up for very small changes and fixes, the
 middle one for small updates, the first one for major updates.
 
+## 0.14.3 · 2026-11-06
+
+**Fixed**
+- **Ride numbers cut in half on some phones.** On smaller screens, or when the phone's font size or display
+  size is turned up, the numbers on the ride screen showed only their top half and the red button read
+  "HOLD TO" without "STOP". Every number and label now takes the largest size that fits its box, so they
+  stay whole from small phones to tablets (and grow a little on tablets). The ride buttons fit their labels
+  and get a little shorter on short screens, leaving more room for the data. Text follows the phone's font
+  size up to 1.3×.
+- **Home screen tiles squashed to bare icons** on short screens or with large text. Home now fills the
+  screen when there is room and scrolls when there isn't.
+
 ## 0.14.2 · 2026-11-05
 
 **Fixed**
