@@ -1,14 +1,15 @@
 {
   "latest": {
-    "versionCode": 26,
-    "versionName": "0.14.3",
+    "versionCode": 27,
+    "versionName": "0.14.4",
     "minSdk": 26,
     "date": "2026-11-06",
-    "apk": "https://github.com/zakusworo/cyclone-beta/releases/download/v0.14.3/cyclone.apk",
-    "size": 2914311,
-    "sha256": "5fc9349ffd10be1ae285400dc0d6d58837c8473d0080100bf76752cf7f3a4cea",
+    "apk": "https://github.com/zakusworo/cyclone-beta/releases/download/v0.14.4/cyclone.apk",
+    "size": 2915879,
+    "sha256": "71083633953ddafd4f7a349c220d075daf8894af4c75f0ae15c3c73030f2c931",
     "notes": [
-      "Fixed: on small screens, or with large text, the ride numbers were cut in half and the stop button read \"HOLD TO\". Numbers, labels and buttons now fit every screen size and font size, and the home screen scrolls instead of squashing its tiles."
+      "Fixed: the green button showed only ► instead of ► START or ► RESUME on Android 8, and the pause button showed only ❚❚ after switching day/night colours. Button labels now always show in full.",
+      "From 0.14.3: ride numbers, labels and buttons fit every screen size and font size."
     ]
   },
   "messages": [
@@ -60,6 +61,13 @@
       "title": "0.14.3: numbers fit every screen",
       "text": "Thanks to the tester who sent a photo! On some phones the ride numbers were cut in half and the red button read \"HOLD TO\" without \"STOP\". It happened on smaller screens and when the phone's font size or display size is turned up. 0.14.3 sizes every number to fit its box, from small phones to tablets, and the home screen now scrolls instead of squashing its tiles. To update now: Options → Beta & updates → Download & install 0.14.3. Still see something cut off? Send a screenshot from the same screen.",
       "url": "https://github.com/zakusworo/cyclone-beta/releases/tag/v0.14.3"
+    },
+    {
+      "id": "2026-11-06-button-labels",
+      "date": "2026-11-06",
+      "title": "0.14.4: button labels in full",
+      "text": "A small follow-up to 0.14.3: on Android 8 the green button showed only ► instead of ► START or ► RESUME, and on any phone the pause button lost its word after switching day/night colours. 0.14.4 always shows the full label. To update: Options → Beta & updates → Download & install 0.14.4. The tutorial pictures are new too.",
+      "url": "https://github.com/zakusworo/cyclone-beta/releases/tag/v0.14.4"
     }
   ],
   "supportEmail": "cyclonebikeco@gmail.com"

@@ -6,6 +6,14 @@ the app also offers each new version as a notification.
 Version numbers are **major.minor.patch**: the last number goes up for very small changes and fixes, the
 middle one for small updates, the first one for major updates.
 
+## 0.14.4 · 2026-11-06
+
+**Fixed**
+- **Button labels cut short.** On Android 8 the green button showed only ► instead of ► START or
+  ► RESUME, and on any phone the pause button showed only ❚❚ after switching between day and night
+  colours: the word had wrapped onto a hidden second line. Button labels are now sized to fit the button
+  in capitals and always show in full.
+
 ## 0.14.3 · 2026-11-06
 
 **Fixed**
