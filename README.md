@@ -19,7 +19,11 @@ Free beta · no account · no ads · about 3 MB
 
 </div>
 
-## What's new in 0.14.2
+## What's new in 0.14.3
+
+- **Fixed: ride numbers cut in half on some phones**, on smaller screens or with the phone's font size or display size turned up (the red button also read "HOLD TO"). Numbers, labels and buttons now fit every screen size and font size, from small phones to tablets, and the home screen scrolls instead of squashing its tiles.
+
+From 0.14.2:
 
 - **Fixed: Cyclone closed every time you pressed Start** on some phones, when Android would not create Cyclone's storage folder. Rides now go to Cyclone's own storage when that happens, and History shows them as usual.
 
