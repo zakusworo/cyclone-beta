@@ -60,7 +60,7 @@ The download is incomplete. Delete it and download again, on Wi-Fi if you can. O
 
 | Feature | What you get |
 |---|---|
-| 🚴 **Ride screen** | Speed, time, distance, averages, heart rate, cadence, power, altitude, calories. Four pages (data, map, climb, ahead) switched with a button or the volume keys, so it works with gloves. |
+| 🚴 **Ride screen** | Speed, time, distance, averages, heart rate, cadence, power, altitude, calories. Four pages (data, map, climb, ahead) switched with a button or the volume keys, so it works with gloves. The numbers size themselves to fit the screen, from small phones to tablets. |
 | 🌗 **Day and night** | Black on white in the sun, white on black after dark. Auto by sunrise and sunset, or pick one in Options. Tap the clock on the ride screen to change it while riding. |
 | 🗺️ **Maps and routes** | Offline maps for your area. Routes from Google Maps (share the link to Cyclone), GPX, KML or KMZ. Turn-by-turn with street names, an off-course alarm, and the way back worked out offline. |
 | ⛰️ **Climbs** | The climb profile coloured by gradient, the next climb on your route, and metres left to the top. Without a route, the climb you are on. |
@@ -134,7 +134,7 @@ Rides stay on your phone. Nothing is uploaded unless you connect Strava or Inter
 <details>
 <summary><b>Which phones work?</b></summary>
 
-Any phone with Android 8.0 or newer and GPS. A phone with a barometer gives the smoothest altitude. ANT+ sensors need a phone with ANT+; Bluetooth sensors work on any phone.
+Any phone with Android 8.0 or newer and GPS, small or large: the ride numbers size themselves to fit the screen, and Cyclone follows the phone's font size setting up to 1.3 times the normal size. A phone with a barometer gives the smoothest altitude. ANT+ sensors need a phone with ANT+; Bluetooth sensors work on any phone.
 </details>
 
 ## Updates
