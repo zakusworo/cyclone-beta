@@ -3,8 +3,8 @@
 This guide walks you through Cyclone from installing it to looking at your ride afterwards. You don't need
 an account, and most things work without internet.
 
-Screenshots come from a test phone running Android 8.0, so your phone may look a little different.
-Sections marked **(from 0.14.0)** or **(from 0.14.1)** describe features that arrive in that version.
+Screenshots come from a test phone running Android 8.0 and Cyclone 0.14.4, so your phone may look a little
+different. Sections marked **(from 0.14.0)** or **(from 0.14.1)** describe features that arrive in that version.
 
 **Contents**
 
@@ -28,7 +28,7 @@ Sections marked **(from 0.14.0)** or **(from 0.14.1)** describe features that ar
 
 1. Open this link on the phone:
    **https://github.com/zakusworo/cyclone-beta/releases/latest/download/cyclone.apk**
-   It always points to the newest version (about 6 MB).
+   It always points to the newest version (about 3 MB).
 2. Wait until the download has finished, then open the file.
 3. Android asks once whether your browser may install apps. Allow it, go back and tap **Install**.
 4. Open Cyclone. Allow **location**. On Android 13 and newer it also asks for **notifications**. Allow
@@ -70,6 +70,9 @@ The home screen shows the clock, the date and the battery. Below that:
   - **Online**: uploads to Strava and Intervals.icu, and weather data.
 - **Round shortcuts**: **Komoot** and **Strava** (greyed out if those apps aren't installed),
   **Settings** (the phone's settings) and **All apps**.
+
+On a small screen, or with the phone's text size turned up, the home screen scrolls: swipe up to reach the
+tiles and shortcuts (from 0.14.3).
 
 If you use an old phone only as a bike computer, you can make Cyclone its home screen:
 **Options → Use Cyclone as the phone's home screen**. It then starts by itself when the phone boots, and the
@@ -170,6 +173,8 @@ The keys only work while the screen is on.
 The bar above the buttons tells you what's happening:
 
 - **READY · Vol+ to start**: nothing is being recorded yet.
+- **RIDE RESUMED · ride on** (or **· Vol+ to go** if the ride was paused): Cyclone or the phone restarted in
+  the middle of a ride, and the same ride carries on.
 - **RECORDING** (with **LAP 2**, **LAP 3**... after a lap). **no GPS yet** means it's still waiting for a GPS fix.
 - **PAUSED · Vol+ to resume**: you paused it yourself.
 - **AUTO-PAUSE**: you stopped moving, so the timer has stopped. It carries on by itself when you ride off.
@@ -195,6 +200,12 @@ The bar above the buttons tells you what's happening:
   along the route at the time you'll get there, and stops along the route such as water, minimarkets,
   fuel, mosques, toilets, bike shops and medical. This page needs to have been online once
   before the ride (Wi-Fi or a hotspot is enough).
+
+### Small screens and large text (from 0.14.3)
+
+Every number and label on the ride screen takes the largest size that fits its box, so nothing is cut off on
+a small phone, and numbers grow a little on a tablet. Cyclone follows the phone's **Font size** setting up to
+1.3 times the normal size; beyond that, the ride screen would run out of room for the numbers.
 
 ### Day and night colours (from 0.14.1)
 
@@ -319,8 +330,10 @@ Every ride is saved twice, as a `.fit` file (what Strava, Garmin Connect and Int
 
 `Android/data/io.github.zakusworo.cyclone/files/rides/`
 
-Some phones hide that folder from file managers. The **Strava (web)** button below also puts a copy of
-the `.fit` file in **Download/Cyclone**, which every file manager can see.
+On a few phones Android won't create that folder; Cyclone then keeps rides, routes and maps in its own
+internal storage instead (from 0.14.2), and History shows them as usual. Some phones also hide the folder
+from file managers. Either way, the **Strava (web)** button below puts a copy of the `.fit` file in
+**Download/Cyclone**, which every file manager can see.
 
 ### Strava and Intervals.icu
 
@@ -445,6 +458,16 @@ The same screen shows **Messages** from the developer.
 **"There was a problem parsing the package" when installing.**
 The download is incomplete or isn't the app. Delete it and download again, on Wi-Fi if you can. On the
 Releases page, take `cyclone.apk`, not "Source code".
+
+**Cyclone closes when I press Start.**
+Update to 0.14.2 or newer. On some phones Android wouldn't create Cyclone's storage folder; Cyclone now uses
+its own storage instead. If Start still fails, you'll see a message: send a problem report from
+**Options → Beta & updates**.
+
+**Numbers on the ride screen are cut in half, or a button label is cut short.**
+Update to 0.14.4. Before 0.14.3, small screens and large text sizes cut the numbers off and the red button read
+"HOLD TO"; before 0.14.4, the green button could show only ► on Android 8. If something is still cut off,
+send a screenshot from **Options → Beta & updates → Report on GitHub**.
 
 **The recorded track has gaps or straight lines.**
 Cyclone isn't exempt from battery optimisation. See [section 1](#stop-android-from-cutting-your-recording),
