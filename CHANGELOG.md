@@ -25,11 +25,10 @@ middle one for small updates, the first one for major updates.
 **Fixed**
 - **Ride numbers cut in half on some phones** (reported with a photo by a beta tester). On smaller screens,
   or when the phone's font size or display size is turned up, the numbers on the ride screen showed only
-  their top half and the red button read
-  "HOLD TO" without "STOP". Every number and label now takes the largest size that fits its box, so they
-  stay whole from small phones to tablets (and grow a little on tablets). The ride buttons fit their labels
-  and get a little shorter on short screens, leaving more room for the data. Text follows the phone's font
-  size up to 1.3×.
+  their top half and the red button read "HOLD TO" without "STOP". Every number and label now takes the
+  largest size that fits its box, so they stay whole from small phones to tablets (and grow a little on
+  tablets). The ride buttons fit their labels and get a little shorter on short screens, leaving more room
+  for the data. Text follows the phone's font size up to 1.3×.
 - **Home screen tiles squashed to bare icons** on short screens or with large text. Home now fills the
   screen when there is room and scrolls when there isn't. Tile names shrink to fit instead of being cut off.
 - **Text cut off at the bottom** when a long label was shortened with "…": the last line of the Ride card
