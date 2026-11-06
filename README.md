@@ -19,7 +19,11 @@ Free beta · no account · no ads · about 3 MB
 
 </div>
 
-## What's new in 0.14.3
+## What's new in 0.14.4
+
+- **Fixed: button labels cut short.** On Android 8 the green button showed only ► instead of ► START or ► RESUME, and the pause button lost its word after switching day/night colours. Labels now always show in full.
+
+From 0.14.3:
 
 - **Fixed: ride numbers cut in half on some phones**, on smaller screens or with the phone's font size or display size turned up (the red button also read "HOLD TO"). Numbers, labels and buttons now fit every screen size and font size, from small phones to tablets, and the home screen scrolls instead of squashing its tiles.
 
