@@ -1,15 +1,15 @@
 {
   "latest": {
-    "versionCode": 27,
-    "versionName": "0.14.4",
+    "versionCode": 28,
+    "versionName": "0.14.5",
     "minSdk": 26,
-    "date": "2026-11-06",
-    "apk": "https://github.com/zakusworo/cyclone-beta/releases/download/v0.14.4/cyclone.apk",
-    "size": 2915879,
-    "sha256": "71083633953ddafd4f7a349c220d075daf8894af4c75f0ae15c3c73030f2c931",
+    "date": "2026-11-08",
+    "apk": "https://github.com/zakusworo/cyclone-beta/releases/download/v0.14.5/cyclone.apk",
+    "size": 2921687,
+    "sha256": "8aa3675188ebd201a1d448528915c576a51c62714c537cd448c0e6ca46ca5c9a",
     "notes": [
-      "Fixed: the green button showed only ► instead of ► START or ► RESUME on Android 8, and the pause button showed only ❚❚ after switching day/night colours. Button labels now always show in full.",
-      "From 0.14.3: ride numbers, labels and buttons fit every screen size and font size."
+      "Fixed: stops along the route (water, minimarkets, toilets) now load on Android 8 and 9.",
+      "Fixed: out-and-back routes no longer say \"Finish\" right after the start."
     ]
   },
   "messages": [

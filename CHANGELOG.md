@@ -6,6 +6,18 @@ the app also offers each new version as a notification.
 Version numbers are **major.minor.patch**: the last number goes up for very small changes and fixes, the
 middle one for small updates, the first one for major updates.
 
+## 0.14.5 · 2026-11-08
+
+**Fixed**
+- **Stops along the route never appeared on Android 8 and 9** (water, minimarkets, toilets, bike shops on the
+  Ahead page). Their map server, overpass-api.de, now only accepts TLS 1.3 connections, which Android has from
+  version 10. On older Android, Cyclone now asks public mirrors that still accept these phones, one after
+  another until one answers; Android 10 and newer still ask overpass-api.de first.
+- **"Finish" at the start of out-and-back routes.** On a route that comes back along the same road, the
+  position could be matched to the way home: the turn card said "Finish" and the distance to go read 0.2 km a
+  few hundred metres into a 2 km route. You now stay on the way out until you have turned around, also when
+  the ride was started away from the route.
+
 ## 0.14.4 · 2026-11-06
 
 **Fixed**

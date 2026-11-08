@@ -19,7 +19,12 @@ Free beta · no account · no ads · about 3 MB
 
 </div>
 
-## What's new in 0.14.4
+## What's new in 0.14.5
+
+- **Fixed: stops along the route never appeared on Android 8 and 9.** Their map server now only accepts a newer kind of secure connection; Cyclone asks other servers that still accept these phones.
+- **Fixed: "Finish" at the start of out-and-back routes.** On a route that comes back along the same road, you now stay on the way out until you have turned around.
+
+From 0.14.4:
 
 - **Fixed: button labels cut short.** On Android 8 the green button showed only ► instead of ► START or ► RESUME, and the pause button lost its word after switching day/night colours. Labels now always show in full.
 
