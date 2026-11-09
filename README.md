@@ -24,7 +24,6 @@ Free beta · no account · no ads · about 3 MB
 
 - **Ride insights.** Every ride summary now starts with a few friendly sentences on how the ride went: new personal bests, how it compares with your other rides, pacing, wind and heat at the time, effort and recovery (with a heart-rate sensor or power meter), climbs and stops. All worked out on your phone, no account or AI service needed.
 - **Fixed: thousands of metres of climbing** on some rides without altitude, after a GPS jump. Affected rides fix themselves the next time they are opened.
-- **Codenames:** each version now has one (an Auckland street), shown under the version number.
 
 <p>
 <img src="docs/img/insights-day.jpg" width="230" alt="Ride summary with the new Insights card: Endurance, Flat, 38 km; a short story of the ride and notes on a new 5 km best, power bests, the longest ride, the comparison with similar rides, heart-rate zones, pacing and the main climb">&nbsp;
