@@ -19,7 +19,12 @@ Free beta · no account · no ads · about 3 MB
 
 </div>
 
-## What's new in 0.14.5
+## What's new in 0.14.6
+
+- **Fixed: weather forecast not updating** after syncing rides recorded without altitude. The forecast now updates first, and Cyclone waits out the weather service's per-minute limit instead of giving up.
+- **Fixed: Bluetooth sensors not found on Android 8 to 11 with Location off.** The pairing window now asks you to turn Location on.
+
+From 0.14.5:
 
 - **Fixed: stops along the route never appeared on Android 8 and 9.** Their map server now only accepts a newer kind of secure connection; Cyclone asks other servers that still accept these phones.
 - **Fixed: "Finish" at the start of out-and-back routes.** On a route that comes back along the same road, you now stay on the way out until you have turned around.

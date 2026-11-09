@@ -6,6 +6,17 @@ the app also offers each new version as a notification.
 Version numbers are **major.minor.patch**: the last number goes up for very small changes and fixes, the
 middle one for small updates, the first one for major updates.
 
+## 0.14.6 · 2026-11-09
+
+**Fixed**
+- **Weather forecast not updating after rides without altitude.** Before a ride goes online, Cyclone fills in
+  missing heights from terrain data. Several such rides in one sync used up the weather service's per-minute
+  limit within seconds, and everything after them failed, the forecast included. The forecast now updates
+  first, and Cyclone waits out the per-minute limit (about a minute) instead of giving up.
+- **Bluetooth sensors not found on Android 8 to 11 while Location is off.** These Android versions show no
+  Bluetooth sensors to apps while the Location switch is off. The pairing window now says so and asks you to
+  turn Location on, instead of searching in vain.
+
 ## 0.14.5 · 2026-11-08
 
 **Fixed**
