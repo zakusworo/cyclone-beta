@@ -7,6 +7,7 @@
     "apk": "https://github.com/zakusworo/cyclone-beta/releases/download/v0.14.6/cyclone.apk",
     "size": 2922027,
     "sha256": "c6a954e0bfe3fb6daa4d7f4e7c56895b7ca0abd6b89b0166c620cbb963e392d2",
+    "codename": "Hobson",
     "notes": [
       "Fixed: the weather forecast updates again after syncing rides recorded without altitude.",
       "Fixed: Bluetooth pairing on Android 8 to 11 now tells you to turn Location on when it is off."
