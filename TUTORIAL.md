@@ -336,7 +336,7 @@ At the bottom, under **Send**:
 - **Upload**: sends the ride to Strava and/or Intervals.icu (only shown once one of them is connected).
 - **Done**: closes the summary.
 
-<img src="docs/img/summary.jpg" width="300" alt="Ride summary with distance, moving time, speeds, ascent, calories and elapsed time">
+<img src="docs/img/summary.jpg" width="300" alt="The totals under the Insights card: distance, moving time, average and top speed, ascent, calories, heart rate, power, TSS, cadence and elapsed time, then where the altitude came from">
 
 ### History
 
