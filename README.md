@@ -19,7 +19,18 @@ Free beta · no account · no ads · about 3 MB
 
 </div>
 
-## What's new in 0.14.6
+## What's new in 0.15.0 "O'Connell"
+
+- **Ride insights.** Every ride summary now starts with a few friendly sentences on how the ride went: new personal bests, how it compares with your other rides, pacing, wind and heat at the time, effort and recovery (with a heart-rate sensor or power meter), climbs and stops. All worked out on your phone, no account or AI service needed.
+- **Fixed: thousands of metres of climbing** on some rides without altitude, after a GPS jump. Affected rides fix themselves the next time they are opened.
+- **Codenames:** each version now has one (an Auckland street), shown under the version number.
+
+<p>
+<img src="docs/img/insights-day.jpg" width="230" alt="Ride summary with the new Insights card: Endurance, Flat, 38 km; a short story of the ride and notes on a new 5 km best, power bests, the longest ride, the comparison with similar rides, heart-rate zones, pacing and the main climb">&nbsp;
+<img src="docs/img/insights-night.jpg" width="230" alt="The same Insights card in night colours">
+</p>
+
+From 0.14.6:
 
 - **Fixed: weather forecast not updating** after syncing rides recorded without altitude. The forecast now updates first, and Cyclone waits out the weather service's per-minute limit instead of giving up.
 - **Fixed: Bluetooth sensors not found on Android 8 to 11 with Location off.** The pairing window now asks you to turn Location on.
@@ -77,7 +88,7 @@ The download is incomplete. Delete it and download again, on Wi-Fi if you can. O
 | 📡 **Sensors** | Bluetooth heart rate, speed, cadence and power on any phone. ANT+ too on phones that have it (many Samsungs). Each bike keeps its own tyre size and sensors. |
 | 🏋️ **Training** | Heart rate and power zones, structured workouts (.zwo files or from Intervals.icu), auto-lap, eat and drink reminders, spoken cues. |
 | 🌦️ **Ahead** | Weather along your route, BMKG weather warnings (Indonesia) and stops ahead: water, minimarkets, fuel, toilets, mosques, bike shops, medical help. |
-| 📊 **After the ride** | Summary with charts, climbs and best efforts; history, personal records, weekly goals and streaks. Rides are saved as .fit files for Strava, Intervals.icu, Garmin Connect or Komoot. |
+| 📊 **After the ride** | Insights in plain words (bests, pacing, wind, effort and recovery), a summary with charts, climbs and best efforts; history, personal records, weekly goals and streaks. Rides are saved as .fit files for Strava, Intervals.icu, Garmin Connect or Komoot. |
 | 🆘 **Safety** | Crash detection: after a hard fall and no movement, a message with your location goes to your contact (via ntfy or Telegram) unless you press I'M OK. |
 
 <details>

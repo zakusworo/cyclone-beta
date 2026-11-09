@@ -1,16 +1,17 @@
 {
   "latest": {
-    "versionCode": 29,
-    "versionName": "0.14.6",
+    "versionCode": 30,
+    "versionName": "0.15.0",
+    "codename": "O'Connell",
     "minSdk": 26,
     "date": "2026-11-09",
-    "apk": "https://github.com/zakusworo/cyclone-beta/releases/download/v0.14.6/cyclone.apk",
-    "size": 2922027,
-    "sha256": "c6a954e0bfe3fb6daa4d7f4e7c56895b7ca0abd6b89b0166c620cbb963e392d2",
-    "codename": "Hobson",
+    "apk": "https://github.com/zakusworo/cyclone-beta/releases/download/v0.15.0/cyclone.apk",
+    "size": 2947123,
+    "sha256": "4b0c7f7a8c6c0579739b851124721b3087bec97897e8c035fb5f3a9c52166c2d",
     "notes": [
-      "Fixed: the weather forecast updates again after syncing rides recorded without altitude.",
-      "Fixed: Bluetooth pairing on Android 8 to 11 now tells you to turn Location on when it is off."
+      "New: ride insights. Each ride summary now tells you how the ride went: bests, pacing, wind, effort and recovery.",
+      "Fixed: thousands of metres of climbing on some rides without altitude, after a GPS jump.",
+      "Each version now has a codename, shown under the version number."
     ]
   },
   "messages": [
@@ -69,6 +70,13 @@
       "title": "0.14.4: button labels in full",
       "text": "A small follow-up to 0.14.3: on Android 8 the green button showed only ► instead of ► START or ► RESUME, and on any phone the pause button lost its word after switching day/night colours. 0.14.4 always shows the full label. To update: Options → Beta & updates → Download & install 0.14.4. The tutorial pictures are new too.",
       "url": "https://github.com/zakusworo/cyclone-beta/releases/tag/v0.14.4"
+    },
+    {
+      "id": "2026-11-09-insights",
+      "date": "2026-11-09",
+      "title": "New in 0.15: ride insights",
+      "text": "After each ride, the summary now tells you how it went in plain words: new personal bests, how it compares with your other rides, pacing, the wind and heat on the day, and with a heart-rate sensor or power meter, how hard it was and how to recover. Update, then open any ride in History to see it. Got a heart-rate sensor? Set your age or max heart rate in Options → Rider & zones for the effort notes. Tell us what you think: Options → Beta & updates → Report on GitHub.",
+      "url": "https://github.com/zakusworo/cyclone-beta/releases/tag/v0.15.0"
     }
   ],
   "supportEmail": "cyclonebikeco@gmail.com"

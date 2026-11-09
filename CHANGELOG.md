@@ -6,6 +6,34 @@ the app also offers each new version as a notification.
 Version numbers are **major.minor.patch**: the last number goes up for very small changes and fixes, the
 middle one for small updates, the first one for major updates.
 
+## 0.15.0 · 2026-11-09 · O'Connell
+
+Versions now have codenames: Auckland streets, shown under the version number on the home screen and on
+**Beta & updates**. 0.14.6 was Hobson; this one is **O'Connell**.
+
+**New**
+- **Ride insights.** The summary of every ride now opens with an **Insights** card: a label for the kind of
+  ride (Endurance · Rolling · 38 km), a few sentences on how it went, and up to seven short notes, each with
+  a line on what it means. Depending on what you recorded, they cover:
+  - new personal bests (fastest 5, 10, 20, 40 and 100 km, best power), longest ride, most climbing;
+  - how this ride compares with your earlier rides of a similar distance, and your rides in the last 30 days;
+  - pacing: the first half against the second, and why one was slower (more climbing, or the wind);
+  - wind and temperature at the time of the ride (Open-Meteo), and how much of the ride was into the wind;
+  - with a heart-rate sensor or power meter: time in zones, training load with a recovery tip, and whether
+    your heart rate crept up later in the ride;
+  - the biggest climb with its climbing speed (VAM), stops, calories and progress towards your goals.
+  Everything is worked out on the phone from your own rides: no account and no AI service. Only an
+  approximate location (about 1 km) and the ride's date go to Open-Meteo for the weather.
+
+**Fixed**
+- **Thousands of metres of climbing on rides without altitude.** On phones that record no altitude, Cyclone
+  adds it from terrain data after the ride. One GPS fix far away made it follow a straight line to that spot
+  and back, adding the hills in between: one test ride showed 15,000 m on 1.8 km. It now follows the ride's
+  own distance, which already leaves such jumps out. Rides filled in by earlier versions are filled in again
+  once, by themselves, the next time they are opened or synced.
+- **Climbing speed (VAM) in the summary's Climbs list** was too high on phones that write records less
+  often than once a second; it now uses the real riding time.
+
 ## 0.14.6 · 2026-11-09
 
 **Fixed**

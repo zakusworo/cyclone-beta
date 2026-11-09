@@ -304,6 +304,27 @@ When you stop a ride (**Hold to stop** or hold **Vol−**), the summary opens by
 the track, elevation, speed, heart rate and power over distance, time in each zone, best efforts, climbs
 and laps.
 
+At the top, from 0.15.0, the **Insights** card tells you how the ride went in a few sentences: what kind of
+ride it was (the label, for example **Endurance · Rolling · 38 km**), what shaped it, and what to take from
+it. Under that come up to seven notes, each with a line on what it means:
+
+- **Bests**: a new fastest 5, 10, 20, 40 or 100 km, new best power, your longest ride or most climbing.
+- **Compared with you**: your average speed against your earlier rides of a similar distance, and how many
+  rides and km you did in the last 30 days.
+- **Pacing**: the first half against the second, and the reason when one was slower: more climbing, or the
+  wind.
+- **Wind and temperature** at the time of the ride, from Open-Meteo, once the phone is online (the first
+  time you open a ride it may take a few seconds). Only an approximate spot, rounded to about 1 km, is sent.
+- **Effort**, with a heart-rate sensor or power meter: time in zones, training load with a recovery tip,
+  and whether your heart rate crept up later in the ride. Set your age or max heart rate (and your FTP for
+  power) in **Options → Rider & zones**.
+- **Climbs, stops, calories and goals.**
+
+Insights compare a ride only with the rides before it, so an older ride still reads as it did on the day.
+Rides shorter than 1 km or 5 minutes are left out of the comparisons.
+
+<img src="docs/img/insights-day.jpg" width="300" alt="The Insights card at the top of a ride summary">
+
 Under the totals, **Altitude** says where the heights came from: the **barometer**, **GPS**, or **terrain
 data**. Some phones without a barometer record no usable height at all; from 0.14.1 such a ride gets its
 altitude from terrain data (Open-Meteo) as soon as the phone is online, before it goes to Strava or
