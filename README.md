@@ -13,9 +13,10 @@ Big numbers, offline maps, turn-by-turn, climbs, ANT+ and Bluetooth sensors, and
 
 Free beta · no account · no ads · about 3 MB
 
-<img src="docs/img/ride-day.jpg" width="230" alt="Ride screen in day colours: turn arrow, speed, timer, distance, averages and sensor values on white">&nbsp;
-<img src="docs/img/ride-night.jpg" width="230" alt="The same ride screen in night colours, white on black">&nbsp;
-<img src="docs/img/home-day.jpg" width="230" alt="Home screen with clock, a big Ride card and tiles for routes, workouts, history, stats, gear, sensors, options and online">
+<img src="docs/img/ride-day.jpg" width="200" alt="Ride screen in day colours: turn arrow, speed, timer, distance, averages and sensor values on white">&nbsp;
+<img src="docs/img/ride-night.jpg" width="200" alt="The same ride screen in night colours, white on black">&nbsp;
+<img src="docs/img/home-day.jpg" width="200" alt="Home screen with clock, a big Ride card and tiles for routes, workouts, history, stats, gear, sensors, options and online">&nbsp;
+<img src="docs/img/insights-top-day.jpg" width="200" alt="Ride insights after a ride: a short story of the ride, a new 5 km best, power bests, the longest ride and how it compares with similar rides">
 
 </div>
 
@@ -100,7 +101,8 @@ The download is incomplete. Delete it and download again, on Wi-Fi if you can. O
 | <img src="docs/img/map-day.jpg" width="230" alt="Map page: offline map with the route in pink, your position and the next turn"> | <img src="docs/img/climb-day.jpg" width="230" alt="Climb page: altitude, grade, VAM, the next climb and a profile coloured by gradient"> | <img src="docs/img/ahead-day.jpg" width="230" alt="Ahead page: temperature, rain, wind, BMKG warnings and the weather along the route"> |
 | <img src="docs/img/map-night.jpg" width="230" alt="Map page in night colours"> | <img src="docs/img/climb-night.jpg" width="230" alt="Climb page in night colours"> | <img src="docs/img/ahead-night.jpg" width="230" alt="Ahead page in night colours"> |
 
-<img src="docs/img/home-night.jpg" width="230" alt="Home screen in night colours">
+<img src="docs/img/home-night.jpg" width="230" alt="Home screen in night colours">&nbsp;
+<img src="docs/img/insights-top-night.jpg" width="230" alt="Ride insights in night colours">
 
 </details>
 
