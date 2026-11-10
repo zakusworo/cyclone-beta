@@ -20,7 +20,13 @@ Free beta · no account · no ads · about 3 MB
 
 </div>
 
-## What's new in 0.15.0 "O'Connell"
+## What's new in 0.15.1 "Britomart"
+
+- **Faster GPS start.** When the last fix is old, Cyclone asks for fresh GPS time and orbit data, so a first fix under open sky takes seconds on most phones.
+- **Why GPS is slow, on screen.** No fix after 90 seconds? The ride screen says whether the phone hears no satellites at all (go under open sky) or is still searching.
+- **GPS log in problem reports**, so GPS trouble can be looked into.
+
+From 0.15.0 "O'Connell":
 
 - **Ride insights.** Every ride summary now starts with a few friendly sentences on how the ride went: new personal bests, how it compares with your other rides, pacing, wind and heat at the time, effort and recovery (with a heart-rate sensor or power meter), climbs and stops. All worked out on your phone, no account or AI service needed.
 - **Fixed: thousands of metres of climbing** on some rides without altitude, after a GPS jump. Affected rides fix themselves the next time they are opened.

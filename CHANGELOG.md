@@ -6,6 +6,20 @@ the app also offers each new version as a notification.
 Version numbers are **major.minor.patch**: the last number goes up for very small changes and fixes, the
 middle one for small updates, the first one for major updates.
 
+## 0.15.1 · 2026-11-10 · Britomart
+
+**New**
+- **Faster GPS start.** When the phone's last GPS fix is more than an hour old, Cyclone now asks Android for
+  fresh GPS time and satellite orbit data as GPS starts (at most every 30 minutes, and again while it
+  searches if the phone comes online later). With it, a first fix under open sky takes seconds instead of
+  minutes on most phones. Phones with a MediaTek chip fetch their own orbit data and take only the time.
+- **Why GPS is slow, on screen.** With no fix 90 seconds after GPS starts, the ride screen says either
+  *No satellites yet · needs open sky* (the phone hears nothing: indoors, under a roof, or a covered pocket)
+  or *GPS searching · N satellites heard* (it hears them and is still working out the position).
+- **GPS log in problem reports.** Cyclone keeps a short log of what GPS did: when it started, satellites heard
+  while searching, how long the first fix took and how accurate it was. Problem reports (Options → Beta &
+  updates → Send problem report) now include it, since some phones hide this from Android's own log.
+
 ## 0.15.0 · 2026-11-09 · O'Connell
 
 **New**

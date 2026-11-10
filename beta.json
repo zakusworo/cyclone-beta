@@ -1,17 +1,17 @@
 {
   "latest": {
-    "versionCode": 30,
-    "versionName": "0.15.0",
-    "codename": "O'Connell",
+    "versionCode": 31,
+    "versionName": "0.15.1",
+    "codename": "Britomart",
     "minSdk": 26,
-    "date": "2026-11-09",
-    "apk": "https://github.com/zakusworo/cyclone-beta/releases/download/v0.15.0/cyclone.apk",
-    "size": 2947123,
-    "sha256": "4b0c7f7a8c6c0579739b851124721b3087bec97897e8c035fb5f3a9c52166c2d",
+    "date": "2026-11-10",
+    "apk": "https://github.com/zakusworo/cyclone-beta/releases/download/v0.15.1/cyclone.apk",
+    "size": 2949363,
+    "sha256": "6939ec57d054c891694967df9a403f42dae12bc4c20f0b6cec318ee309387e4a",
     "notes": [
-      "New: ride insights. Each ride summary now tells you how the ride went: bests, pacing, wind, effort and recovery.",
-      "Fixed: thousands of metres of climbing on some rides without altitude, after a GPS jump.",
-      "Each version now has a codename, shown under the version number."
+      "Faster GPS start: when the last fix is old, Cyclone asks for fresh GPS time and orbit data.",
+      "No GPS fix after 90 s? The ride screen now says why: no satellites heard (go under open sky) or still searching.",
+      "Problem reports now include a GPS log, so GPS trouble can be looked into."
     ]
   },
   "messages": [
