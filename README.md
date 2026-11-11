@@ -26,6 +26,11 @@ Free beta · no account · no ads · about 3 MB
 - **Fixed: an empty GPX no longer replaces your route.** A file with no points is refused, and your route stays.
 - **Faster sync for a new route:** stops first, weather warnings after, and a busy server is left sooner.
 
+<p>
+<img src="docs/img/ahead-day.jpg" width="230" alt="Ahead page with Stops ahead filled in: the next mosque, minimarket, toilet, clinic, fuel station, water and bike shop along the route, each with its distance and name">&nbsp;
+<img src="docs/img/ahead-night.jpg" width="230" alt="The same Ahead page in night colours">
+</p>
+
 From 0.15.1 "Britomart":
 
 - **Faster GPS start.** When the last fix is old, Cyclone asks for fresh GPS time and orbit data, so a first fix under open sky takes seconds on most phones.
@@ -109,7 +114,7 @@ The download is incomplete. Delete it and download again, on Wi-Fi if you can. O
 
 | Map | Climb | Ahead |
 |:---:|:---:|:---:|
-| <img src="docs/img/map-day.jpg" width="230" alt="Map page: offline map with the route in pink, your position and the next turn"> | <img src="docs/img/climb-day.jpg" width="230" alt="Climb page: altitude, grade, VAM, the next climb and a profile coloured by gradient"> | <img src="docs/img/ahead-day.jpg" width="230" alt="Ahead page: temperature, rain, wind, BMKG warnings and the weather along the route"> |
+| <img src="docs/img/map-day.jpg" width="230" alt="Map page: offline map with the route in pink, your position and the next turn"> | <img src="docs/img/climb-day.jpg" width="230" alt="Climb page: altitude, grade, VAM, the next climb and a profile coloured by gradient"> | <img src="docs/img/ahead-day.jpg" width="230" alt="Ahead page: temperature, rain, wind, BMKG warnings, the weather along the route and the next stops"> |
 | <img src="docs/img/map-night.jpg" width="230" alt="Map page in night colours"> | <img src="docs/img/climb-night.jpg" width="230" alt="Climb page in night colours"> | <img src="docs/img/ahead-night.jpg" width="230" alt="Ahead page in night colours"> |
 
 <img src="docs/img/home-night.jpg" width="230" alt="Home screen in night colours">&nbsp;
