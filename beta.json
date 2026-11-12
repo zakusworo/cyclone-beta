@@ -6,9 +6,11 @@
     "minSdk": 26,
     "date": "2026-11-12",
     "apk": "https://github.com/zakusworo/cyclone-beta/releases/download/v0.15.3/cyclone.apk",
-    "size": 2959662,
-    "sha256": "397b538197886f583ac9301dc7752f68ea315613426c0fba083b435b2469dcd4",
+    "size": 2964238,
+    "sha256": "5ee0ac4d9eb3adf5540717e8c71eb53d3614f5f2f840007fa2205120662a96b6",
     "notes": [
+      "Ahead page: every stop to the finish, in order, below Stops ahead.",
+      "Stops download faster when servers are busy, and right after you pick or import a route.",
       "Type the size printed on your tyre (26 x 1.50, 700x25C, 40-559) and Cyclone works out the wheel size.",
       "Brand or model not listed? Type your own.",
       "Fixed: stops ahead on Android 8 and 9 (a missing certificate); 700 × 30C wheel size corrected to 2146 mm (bikes on it move by themselves)."
@@ -89,7 +91,7 @@
       "id": "2026-11-12-tyre-size",
       "date": "2026-11-12",
       "title": "0.15.3: your tyre size, your brand",
-      "text": "Thanks to the tester who asked for 26 × 1.50 and their own bike brand! In Cyclone 0.15.3, Gear → edit your bike → Tyre size → Type the size on the tyre: enter what is printed on the side (26 x 1.50, 700x25C or two numbers like 40-559) for accurate speed from a wheel sensor. Brand not in the list? Tap Not listed? Type your own brand. Also fixed: stops ahead on Android 8 and 9, and the 700 × 30C wheel size (bikes on it are corrected by themselves). To update: Options → Beta & updates → Check & update.",
+      "text": "Thanks to the tester who asked for 26 × 1.50 and their own bike brand! In Cyclone 0.15.3, Gear → edit your bike → Tyre size → Type the size on the tyre: enter what is printed on the side (26 x 1.50, 700x25C or two numbers like 40-559) for accurate speed from a wheel sensor. Brand not in the list? Tap Not listed? Type your own brand. Also fixed: stops ahead on Android 8 and 9, and the 700 × 30C wheel size (bikes on it are corrected by themselves). New on the Ahead page: every stop to the finish, scroll down below Stops ahead. To update: Options → Beta & updates → Check & update.",
       "url": "https://github.com/zakusworo/cyclone-beta/releases/tag/v0.15.3"
     }
   ],
