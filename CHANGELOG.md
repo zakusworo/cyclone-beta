@@ -6,14 +6,24 @@ the app also offers each new version as a notification.
 Version numbers are **major.minor.patch**: the last number goes up for very small changes and fixes, the
 middle one for small updates, the first one for major updates.
 
-- **Stops download faster when the servers are busy.** Cyclone first asks each stops server whether it has
-  room and starts with the quickest; a server that does not answer is given up on sooner.
-- **Stops come right after you pick or import a route**, not at the next half-hourly sync.
-- **No more double stops**: a shop or clinic mapped twice in OpenStreetMap shows once.
-- **Ahead page:** the forecast shows before the first GPS fix (it said "No forecast yet"), and "no BMKG
-  warnings" is no longer shown in red.
-- **Routes** shows your route straight after an update or restart, and starts its offline routing data.
-- The Online screen no longer opens the keyboard.
+## 0.15.4 · 2026-11-15 · Waterloo
+
+**Fixed**
+- **Sharing from older Google Maps works.** A route shared from an older Maps version (like the one on
+  Android 6 phones) failed with *Could not import the link: Unknown protocol: intent*. Newer Maps were not
+  affected. On older Maps, Share is under **⋮** at the top right, as *Share directions*.
+- **Stops along long routes.** On a long course only the first part got its stops: busy servers made each sync
+  give up after a piece or two, and an overloaded server that answered "nothing here" was believed. Cyclone now
+  downloads the route in pieces, two at a time, asks again when an empty answer looks wrong, and comes back after
+  3 minutes instead of half an hour until every piece is in. Bentang Jawa (1,442 km): all 1,084 stops in one go,
+  in 4 to 8 minutes.
+- **While stops are still downloading**, the Ahead page and the Online screen say *so far, still downloading*,
+  and the stops already found show straight away.
+- **Long KML and Google Maps routes** no longer close Cyclone while importing. A long route line,
+  like the 75,000 GPS points of Bentang Jawa from Google Earth, ran it out of memory.
+- **Every stop to the finish:** distances past 1,000 km line up, long names are cut to fit the line instead of
+  wrapping onto the next one, and a stop right at the start is counted.
+
 ## 0.15.3 · 2026-11-12 · Tamaki
 
 **New**
@@ -34,6 +44,14 @@ middle one for small updates, the first one for major updates.
 - **700 × 30C** was set to 2170 mm; Garmin's table says 2146 mm. Road, gravel, city and touring bikes on
   700 × 30C move to 2146 mm by themselves.
 - An unreadable stops file no longer closes the ride screen.
+- **Stops download faster when the servers are busy.** Cyclone first asks each stops server whether it has
+  room and starts with the quickest; a server that does not answer is given up on sooner.
+- **Stops come right after you pick or import a route**, not at the next half-hourly sync.
+- **No more double stops**: a shop or clinic mapped twice in OpenStreetMap shows once.
+- **Ahead page:** the forecast shows before the first GPS fix (it said "No forecast yet"), and "no BMKG
+  warnings" is no longer shown in red.
+- **Routes** shows your route straight after an update or restart, and starts its offline routing data.
+- The Online screen no longer opens the keyboard.
 
 ## 0.15.2 · 2026-11-11 · Jervois
 
