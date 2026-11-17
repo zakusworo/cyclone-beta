@@ -1,19 +1,18 @@
 {
   "latest": {
-    "versionCode": 34,
-    "versionName": "0.15.4",
-    "codename": "Waterloo",
+    "versionCode": 35,
+    "versionName": "0.16.0",
+    "codename": "Quay",
     "minSdk": 26,
-    "date": "2026-11-15",
-    "apk": "https://github.com/zakusworo/cyclone-beta/releases/download/v0.15.4/cyclone.apk",
-    "size": 2970266,
-    "sha256": "9dd206db6922165c9c4890a4f774ed879a3d1541fef1da54c01ac0c6d77b2ef4",
+    "date": "2026-11-17",
+    "apk": "https://github.com/zakusworo/cyclone-beta/releases/download/v0.16.0/cyclone.apk",
+    "size": 2977358,
+    "sha256": "fd664cab8557d7ff2501b59d69ec94ea409f112436295d240ffbdf5c0ee67862",
     "notes": [
-      "Fixed: routes shared from older Google Maps (on Android 6 phones) failed with \"Unknown protocol: intent\". On those, Share is under ⋮ → Share directions.",
-      "Stops along long routes: every piece downloads now, and empty answers from busy servers are asked again (Bentang Jawa: all 1,084 stops in one go).",
-      "While stops download, Ahead and Online say \"so far, still downloading\" and show what is found already.",
-      "Fixed: long KML and Google Maps routes no longer close the app while importing.",
-      "Every stop to the finish: distances past 1,000 km line up and long names fit on one line."
+      "Choose your data fields: Options → Data page fields. Tick what the data page shows under the speed dial and put them in order with ▲ ▼; 19 to choose from, including speed, total time, descent, gradient, VAM, climbing left, lap and clock.",
+      "↺ Default fields brings back the original 11 in one tap.",
+      "Fixed: altitude spikes and too much climbing on phones without a barometer. Cyclone holds the height while you are stopped, and after the ride (when online) uses smoothed terrain heights instead of GPS height. Rides you already have are fixed the next time you open them online; their climbing will change (usually down).",
+      "Small tuning of the ride detection thresholds."
     ]
   },
   "messages": [
