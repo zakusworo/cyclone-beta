@@ -1,18 +1,19 @@
 {
   "latest": {
-    "versionCode": 35,
-    "versionName": "0.16.0",
-    "codename": "Quay",
+    "versionCode": 36,
+    "versionName": "0.17.0",
+    "codename": "Nuffield",
     "minSdk": 26,
-    "date": "2026-11-17",
-    "apk": "https://github.com/zakusworo/cyclone-beta/releases/download/v0.16.0/cyclone.apk",
-    "size": 2977358,
-    "sha256": "fd664cab8557d7ff2501b59d69ec94ea409f112436295d240ffbdf5c0ee67862",
+    "date": "2026-11-19",
+    "apk": "https://github.com/zakusworo/cyclone-beta/releases/download/v0.17.0/cyclone.apk",
+    "size": 6371453,
+    "sha256": "6a25034cc1086063fcf415b1f9f522ea487b5d563ff22b766494e4f2bcabd2f3",
     "notes": [
-      "Choose your data fields: Options → Data page fields. Tick what the data page shows under the speed dial and put them in order with ▲ ▼; 19 to choose from, including speed, total time, descent, gradient, VAM, climbing left, lap and clock.",
-      "↺ Default fields brings back the original 11 in one tap.",
-      "Fixed: altitude spikes and too much climbing on phones without a barometer. Cyclone holds the height while you are stopped, and after the ride (when online) uses smoothed terrain heights instead of GPS height. Rides you already have are fixed the next time you open them online; their climbing will change (usually down).",
-      "Small tuning of the ride detection thresholds."
+      "Share card: Summary → Share card (picture). Your route, distance and numbers on your own photo, contour lines, day, night or as a clear sticker; Story, Post or Square; share to WhatsApp or save.",
+      "On the card: pick the line colour, write your own title, and drag or pinch the route to move and resize it.",
+      "Import FIT routes: Routes → Import file (or Open with / Share) takes FIT courses from Garmin Connect, Komoot, RideWithGPS or Strava, and recorded rides.",
+      "Accent colours: Options → Colours → Cyan, Orange, Green, Pink, Violet or Amber.",
+      "Home wallpaper: patterns, 12 built-in photos or your own photo, moved and zoomed to fit your screen."
     ]
   },
   "messages": [

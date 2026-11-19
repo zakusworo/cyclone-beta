@@ -219,6 +219,14 @@ where you are. Every screen follows it.
 
 <img src="docs/img/ride-day.jpg" width="260" alt="Ride screen in day colours">&nbsp;<img src="docs/img/ride-night.jpg" width="260" alt="Ride screen in night colours">
 
+### Accent colour and home wallpaper (from 0.17.0)
+
+Options → Colours: pick an **accent** (Cyan, Orange, Green, Pink, Violet or Amber) for buttons, titles and the
+route; speed always stays cyan. **Home wallpaper** opens the picker: patterns drawn in your accent, 12 built-in
+photos, or **Choose a photo…**. Then move and zoom the photo behind a frame of your screen's shape and tap
+**Save**; **Adjust the frame…** changes it later. The wallpaper is on the home screen only: the ride screen stays
+plain, for reading in the sun.
+
 ### Auto-pause, GPS sleep and screen-off recording
 
 - **Auto-pause** stops the timer when you stand still for a few seconds (5 s by default) and starts it again
@@ -239,8 +247,8 @@ Tap **Routes** on the home screen.
 
 ### Getting a route in
 
-- **From a file**: tap **Import file** and pick a GPX, KML or KMZ file (from Komoot, RideWithGPS, Google My
-  Maps, Google Earth...). You can also use **Open with** or **Share** in another app (Files, WhatsApp...)
+- **From a file**: tap **Import file** and pick a GPX, FIT, KML or KMZ file (from Komoot, RideWithGPS, Garmin
+  Connect, Strava, Google My Maps, Google Earth...). A FIT course keeps its own name; a recorded ride works too. You can also use **Open with** or **Share** in another app (Files, WhatsApp...)
   and choose Cyclone.
 - **From Google Maps**:
   1. Plan the route in Google Maps. Any mode works, and two-wheeler or motorbike mode works well.
@@ -337,6 +345,24 @@ At the bottom, under **Send**:
 - **Done**: closes the summary.
 
 <img src="docs/img/summary.jpg" width="300" alt="The totals under the Insights card: distance, moving time, average and top speed, ascent, calories, heart rate, power, TSS, cadence and elapsed time, then where the altitude came from">
+
+### Share card (from 0.17.0)
+
+On the summary, tap **Share card (picture)** for a picture of the ride to post. The preview at the top is
+exactly what gets shared.
+
+- **Look**: your photo (tap **Choose a photo…** first), contour lines, day, night, or **Clear sticker**, a
+  see-through PNG to lay over your own story photo.
+- **Shape**: Story 9:16, Post 4:5 or Square.
+- **Line**: the colour of the route and the elevation profile (Auto or one of nine colours).
+- **Title**: your own name for the ride; **Automatic** goes back to *Morning Ride* and the like. Kept for that ride.
+- **Numbers**: tick up to six.
+- **Moving things**: drag the route to move it, pinch it (or **Smaller** / **Bigger** under Route) to resize it,
+  **Reset** to put it back. Drag anywhere else to move your photo.
+- **Route**: the first and last 500 m are hidden by default, so where you live or work stays off the picture.
+  Only the shape is drawn, never a map or coordinates.
+
+Then **Share**, **WhatsApp**, or **Save to phone…**.
 
 ### History
 

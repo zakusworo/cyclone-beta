@@ -6,6 +6,31 @@ the app also offers each new version as a notification.
 Version numbers are **major.minor.patch**: the last number goes up for very small changes and fixes, the
 middle one for small updates, the first one for major updates.
 
+## 0.17.0 · 2026-11-19 · Nuffield
+
+**New**
+- **Share card.** After a ride: Summary → *Share card (picture)*. A picture of the ride for WhatsApp, a story or a
+  post: the route, the distance, up to six numbers you pick and the elevation profile. Put it on your own photo
+  (drag to move it), on contour lines, plain day or night, or as a clear sticker (PNG) for your own story photo.
+  Story 9:16, Post 4:5 or Square. Share, WhatsApp or save it to the phone.
+  - **Line colour:** the route and the profile in Auto or one of nine colours.
+  - **Title:** write your own name for the ride instead of *Morning Ride*; Automatic brings it back.
+  - **Move and resize the route:** drag the route to move it, pinch (or Smaller / Bigger) to resize it, so it
+    sits where your photo has room. Reset puts it back.
+  - The first and last 500 m are hidden by default, so where you live or work stays off the picture. Only the
+    shape of the route is drawn, never a map or coordinates.
+- **Import FIT routes.** Routes → *Import file* (or *Open with* / *Share* from another app) now takes FIT files
+  too: courses exported from Garmin Connect, Komoot, RideWithGPS or Strava, and recorded rides. A course keeps
+  its own name.
+- **Accent colours.** Options → Colours: Cyan (as before), Orange, Green, Pink, Violet or Amber for buttons,
+  titles and the route. Speed always stays cyan.
+- **Home wallpaper.** Options → Colours → *Home wallpaper*: patterns drawn in your accent (Routeprint, Contours,
+  Mountains, Plain), 12 built-in photos (all public domain, from Wikimedia Commons), or your own photo. Move and
+  zoom the photo behind a frame of your screen's shape, then Save. The ride screen stays plain.
+
+**Fixed**
+- Home: the dock shortcuts no longer show black squares over a wallpaper.
+
 ## 0.16.0 · 2026-11-17 · Quay
 
 **New**

@@ -20,7 +20,21 @@ Free beta · no account · no ads · about 3 MB
 
 </div>
 
-## What's new in 0.16.0 "Quay"
+## What's new in 0.17.0 "Nuffield"
+
+- **Share card:** after a ride, Summary → *Share card (picture)*. Your route, distance and up to six numbers on your own photo, contour lines, day, night or a clear sticker; Story 9:16, Post 4:5 or Square; share to WhatsApp or save it.
+- **Make it yours:** pick the line colour, write your own title, and drag or pinch the route to move and resize it. The first and last 500 m stay hidden, and only the route's shape is drawn, never a map.
+- **Import FIT routes:** Routes → *Import file* (or *Open with* / *Share*) now takes FIT courses from Garmin Connect, Komoot, RideWithGPS or Strava, and recorded rides.
+- **Accent colours** (Options → Colours) and a **home wallpaper**: patterns, 12 built-in photos or your own, framed to your screen.
+
+<p>
+<img src="docs/img/share-card.jpg" width="280" alt="A share card in Post 4:5: a rider on a white bike at golden hour, the title Golden hour loop, the route drawn in orange over the hills, an orange elevation profile, 34.01 km and moving time, climbing and energy">&nbsp;
+<img src="docs/img/share-card-editor.jpg" width="230" alt="The share card screen: the live preview, a note to drag the route and pinch to resize it, and buttons for Look, Shape, Line colour, Title and Choose a photo">
+</p>
+
+<sub>Card photo: Abigail Keenan, <a href="https://commons.wikimedia.org/wiki/File:Alpine,_United_States_(Unsplash_8jqna7aA-vs).jpg">CC0 via Wikimedia Commons</a>.</sub>
+
+From 0.16.0 "Quay":
 
 - **Choose your data fields:** Options → *Data page fields*. Tick what the data page shows under the speed dial and put them in order with ▲ ▼. 19 to choose from, new: speed, total time, descent, gradient, VAM, climbing left, lap and clock.
 - **↺ Default fields** brings back the original 11 in one tap.
@@ -109,7 +123,7 @@ The download is incomplete. Delete it and download again, on Wi-Fi if you can. O
 |---|---|
 | 🚴 **Ride screen** | Speed, time, distance, averages, heart rate, cadence, power, altitude, calories. Four pages (data, map, climb, ahead) switched with a button or the volume keys, so it works with gloves. The numbers size themselves to fit the screen, from small phones to tablets. |
 | 🌗 **Day and night** | Black on white in the sun, white on black after dark. Auto by sunrise and sunset, or pick one in Options. Tap the clock on the ride screen to change it while riding. |
-| 🗺️ **Maps and routes** | Offline maps for your area. Routes from Google Maps (share the link to Cyclone), GPX, KML or KMZ. Turn-by-turn with street names, an off-course alarm, and the way back worked out offline. |
+| 🗺️ **Maps and routes** | Offline maps for your area. Routes from Google Maps (share the link to Cyclone), GPX, FIT, KML or KMZ. Turn-by-turn with street names, an off-course alarm, and the way back worked out offline. |
 | ⛰️ **Climbs** | The climb profile coloured by gradient, the next climb on your route, and metres left to the top. Without a route, the climb you are on. |
 | 📡 **Sensors** | Bluetooth heart rate, speed, cadence and power on any phone. ANT+ too on phones that have it (many Samsungs). Each bike keeps its own tyre size and sensors. |
 | 🏋️ **Training** | Heart rate and power zones, structured workouts (.zwo files or from Intervals.icu), auto-lap, eat and drink reminders, spoken cues. |
