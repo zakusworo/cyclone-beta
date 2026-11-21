@@ -1,19 +1,20 @@
 {
   "latest": {
-    "versionCode": 36,
-    "versionName": "0.17.0",
-    "codename": "Nuffield",
+    "versionCode": 37,
+    "versionName": "0.18.0",
+    "codename": "Vulcan",
     "minSdk": 26,
-    "date": "2026-11-19",
-    "apk": "https://github.com/zakusworo/cyclone-beta/releases/download/v0.17.0/cyclone.apk",
-    "size": 6371453,
-    "sha256": "6a25034cc1086063fcf415b1f9f522ea487b5d563ff22b766494e4f2bcabd2f3",
+    "date": "2026-11-21",
+    "apk": "https://github.com/zakusworo/cyclone-beta/releases/download/v0.18.0/cyclone.apk",
+    "size": 6383409,
+    "sha256": "11fd94c5961ec79caac37e2a172095d50b03739ec14ed53418d9dad7227f2866",
     "notes": [
-      "Share card: Summary → Share card (picture). Your route, distance and numbers on your own photo, contour lines, day, night or as a clear sticker; Story, Post or Square; share to WhatsApp or save.",
-      "On the card: pick the line colour, write your own title, and drag or pinch the route to move and resize it.",
-      "Import FIT routes: Routes → Import file (or Open with / Share) takes FIT courses from Garmin Connect, Komoot, RideWithGPS or Strava, and recorded rides.",
-      "Accent colours: Options → Colours → Cyan, Orange, Green, Pink, Violet or Amber.",
-      "Home wallpaper: patterns, 12 built-in photos or your own photo, moved and zoomed to fit your screen."
+      "Cyclone-Wearable: Cyclone for Wear OS watches (Galaxy Watch4 and newer, Pixel Watch…). Records rides on the watch alone, with map, elevation, stops ahead and turn cues. Install guide: github.com/zakusworo/cyclone-wearable",
+      "Watch rides come to the phone by themselves: open History near the watch, then send them with Strava (web) like any ride. Picking a route sends it to the watch.",
+      "Watch as heart-rate sensor: Cyclone now follows a watch strap when its Bluetooth address changes (it showed -- before).",
+      "Brighter ride screen: full brightness while riding (Ride options → Bright screen while riding). Battery saver no longer dims the screen to 12 %.",
+      "Home fits every screen: on short phones or with large text it scales down instead of scrolling.",
+      "Map page fields: Ride options → Map page fields picks up to 4 numbers above the map (heart rate, cadence, power, clock…)."
     ]
   },
   "messages": [

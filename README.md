@@ -20,7 +20,22 @@ Free beta · no account · no ads · about 3 MB
 
 </div>
 
-## What's new in 0.17.0 "Nuffield"
+## What's new in 0.18.0 "Vulcan"
+
+- **Cyclone on your watch: [Cyclone-Wearable](https://github.com/zakusworo/cyclone-wearable)** for Wear OS watches (Galaxy Watch4 and newer, Pixel Watch, TicWatch…). Records rides on the watch alone (GPS, wrist heart rate, climbing) with an offline map, elevation, stops ahead, turn cues and eat/drink reminders. Same version as this app.
+- **Watch ↔ phone:** open *History* near the watch and its rides come in by Bluetooth (then *Strava (web)* as usual); picking a route sends the course, stops and turns to the watch. Works while the watch stays paired with another phone.
+- **Watch as heart-rate sensor** for any phone: fixed `--` after the watch changed its Bluetooth address.
+- **Brighter ride screen:** full brightness while riding (*Ride options → Bright screen while riding*, on by default); battery saver no longer dims to 12 %.
+- **Home fits every screen:** on short phones or with large text it scales down instead of scrolling.
+- **Map page fields:** *Ride options → Map page fields*, up to 4 numbers above the map.
+
+<p>
+<img src="docs/img/watch-ride.png" width="180" alt="Cyclone-Wearable ride page on a round watch: clock, GPS status, timer, speed, distance and heart rate inside a heart-rate ring">&nbsp;
+<img src="docs/img/watch-map.png" width="180" alt="Cyclone-Wearable map page: offline map with the course in pink and stops as coloured dots, speed and distance below">&nbsp;
+<img src="docs/img/watch-ahead.png" width="180" alt="Cyclone-Wearable Ahead page: next mosque, medical, minimarket, fuel and toilet with distances, and the distance to the finish">
+</p>
+
+From 0.17.0 "Nuffield":
 
 - **Share card:** after a ride, Summary → *Share card (picture)*. Your route, distance and up to six numbers on your own photo, contour lines, day, night or a clear sticker; Story 9:16, Post 4:5 or Square; share to WhatsApp or save it.
 - **Make it yours:** pick the line colour, write your own title, and drag or pinch the route to move and resize it. The first and last 500 m stay hidden, and only the route's shape is drawn, never a map.

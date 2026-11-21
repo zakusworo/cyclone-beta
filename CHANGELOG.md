@@ -6,6 +6,24 @@ the app also offers each new version as a notification.
 Version numbers are **major.minor.patch**: the last number goes up for very small changes and fixes, the
 middle one for small updates, the first one for major updates.
 
+## 0.18.0 · 2026-11-21 · Vulcan
+
+**New**
+- **Cyclone-Wearable**, Cyclone for Wear OS watches (Galaxy Watch4 and newer, Pixel Watch, TicWatch…), same version
+  as this app: rides on the watch alone (GPS, wrist heart rate, barometer, .fit), offline map, elevation, stops ahead,
+  turn cues, off-course / climb / eat / drink alerts, heart-rate strap mode. Install guide:
+  https://github.com/zakusworo/cyclone-wearable
+- **Watch ↔ phone over Bluetooth:** History pulls the watch's rides in (CRC-checked, `…_watch.fit`), then Strava (web)
+  and Intervals.icu as usual; choosing a route sends the course, profile, climbs, turns and stops to the watch. Works
+  while the watch stays paired with another phone.
+- **Map page fields:** Ride options → Map page fields, up to 4 numbers above the map (any data-page field).
+- **Bright screen while riding** (Ride options, on by default): full brightness on the ride screen during a ride.
+
+**Fixed**
+- Ride screen dim or near black: battery saver forced 12 % brightness. It now only lets the screen time out.
+- Home needed scrolling on short phones or with large text: it now scales down to fit.
+- Watch heart rate stuck at `--`: Cyclone follows a sensor whose Bluetooth address changes.
+
 ## 0.17.0 · 2026-11-19 · Nuffield
 
 **New**
