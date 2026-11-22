@@ -20,7 +20,16 @@ Free beta · no account · no ads · about 3 MB
 
 </div>
 
-## What's new in 0.18.0 "Vulcan"
+## What's new in 0.19.0 "Khyber Pass"
+
+- **Segments:** keep any stretch of a ride (a climb, your fastest 5 km…) and every ride over it is timed and ranked; *History → Segments*.
+- **Live segments:** *SEGMENT AHEAD*, then your time and gap to your record on the ride screen, and *RECORD!* at the finish.
+- **No power meter? Estimated power**, live (*POWER W EST*) and in the summary, always marked as estimated.
+- **Watches that hide their heart rate:** *Sensors → Pair → Show all Bluetooth devices*, tap to check, then pair.
+- **Delete a ride** (long-press twice in History), **share card with up to 9 numbers**, **fresh insight wordings**, **clear glass Home**.
+- **Fixed:** offline map downloads on IPv6-only networks (mirror + automatic retry + *Try again*), and *LOCATION OFF* instead of *NEEDS OPEN SKY*.
+
+From 0.18.0 "Vulcan":
 
 - **Cyclone on your watch: [Cyclone-Wearable](https://github.com/zakusworo/cyclone-wearable)** for Wear OS watches (Galaxy Watch4 and newer, Pixel Watch, TicWatch…). Records rides on the watch alone (GPS, wrist heart rate, climbing) with an offline map, elevation, stops ahead, turn cues and eat/drink reminders. Same version as this app.
 - **Watch ↔ phone:** open *History* near the watch and its rides come in by Bluetooth (then *Strava (web)* as usual); picking a route sends the course, stops and turns to the watch. Works while the watch stays paired with another phone.
