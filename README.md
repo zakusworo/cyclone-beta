@@ -20,7 +20,12 @@ Free beta · no account · no ads · about 3 MB
 
 </div>
 
-## What's new in 0.19.0 "Khyber Pass"
+## What's new in 0.19.1 "Symonds"
+
+- **Fixed:** offline map stuck at *0 / 0 MB · waiting to start*. It now says when it waits for Wi-Fi (*Use mobile data now*), and *Download in Cyclone instead* gets the map when the phone's downloader will not.
+- **City maps** for Indonesia, 8–155 MB instead of a whole island: Bandung, Jakarta, Surabaya, Semarang, Yogyakarta, Solo, Malang, Bali, Palembang. *Find maps for my location* puts your city first.
+
+From 0.19.0 "Khyber Pass":
 
 - **Segments:** keep any stretch of a ride (a climb, your fastest 5 km…) and every ride over it is timed and ranked; *History → Segments*.
 - **Live segments:** *SEGMENT AHEAD*, then your time and gap to your record on the ride screen, and *RECORD!* at the finish.

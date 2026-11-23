@@ -1,24 +1,17 @@
 {
   "latest": {
-    "versionCode": 38,
-    "versionName": "0.19.0",
-    "codename": "Khyber Pass",
+    "versionCode": 39,
+    "versionName": "0.19.1",
+    "codename": "Symonds",
     "minSdk": 26,
-    "date": "2026-11-22",
-    "apk": "https://github.com/zakusworo/cyclone-beta/releases/download/v0.19.0/cyclone.apk",
-    "size": 6432669,
-    "sha256": "482f5431d84cd18ed88d60472b111a4a9cd181ca985b6db921861f29eecdb2f3",
+    "date": "2026-11-23",
+    "apk": "https://github.com/zakusworo/cyclone-beta/releases/download/v0.19.1/cyclone.apk",
+    "size": 6444897,
+    "sha256": "b2b434ddef46bdb8872d96f39482271477a5013000915cf115780bbddb52bb28",
     "notes": [
-      "Segments: keep any stretch of a ride (a climb, your fastest 5 km, any part) and every ride over it is timed and ranked. History → Segments.",
-      "Live segments: 'segment ahead', then your time and gap to your record on the ride screen, and RECORD! at the finish.",
-      "No power meter? Power is estimated from speed, gradient and your weight, live on the ride screen and in the summary, always marked EST.",
-      "Pair watches that hide their heart rate: Sensors → Pair → Show all Bluetooth devices, then tap the watch to check it.",
-      "Delete a ride: in History, long-press it twice.",
-      "Share card: up to 9 numbers, now with elapsed time, descent, max heart rate, power, temperature, wind and personal bests.",
-      "Fresh ride insights: new wordings every ride, and the calories compared with more foods than bananas.",
-      "Home cards are clear glass so your wallpaper shows through; the summary track is dashed where GPS was lost.",
-      "Fixed: offline map downloads failed on some Wi-Fi/mobile networks (IPv6 only): a second server is used and it retries by itself. Failed downloads stay listed with Try again.",
-      "Fixed: with location off the app said 'needs open sky' instead of 'location off'; sharing a problem report on Android 17."
+      "Fixed: offline map stuck at '0 / 0 MB · waiting to start'. On mobile data or a hotspot it now says it is waiting for Wi-Fi, with 'Use mobile data now'.",
+      "Fixed: if the phone's downloader never starts or stops halfway, tap 'Download in Cyclone instead' and Cyclone downloads the map itself.",
+      "New: city maps for Indonesia (8-155 MB instead of a whole island): Bandung, Jakarta, Surabaya, Semarang, Yogyakarta, Solo, Malang, Bali, Palembang. Offline maps -> Find maps for my location puts your city first."
     ]
   },
   "messages": [
