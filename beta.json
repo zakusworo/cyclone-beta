@@ -2,12 +2,12 @@
   "latest": {
     "versionCode": 40,
     "versionName": "0.20.0",
-    "codename": "Customs",
+    "codename": "Ponsonby",
     "minSdk": 26,
     "date": "2026-11-26",
     "apk": "https://github.com/zakusworo/cyclone-beta/releases/download/v0.20.0/cyclone.apk",
-    "size": 6448437,
-    "sha256": "84c00540ff4d31fe0ca5d1f494fee05d24e70254c477ef80577567ddac44e79d",
+    "size": 6448417,
+    "sha256": "2593c6687bc8955e91a6588ed8dc0efd58f4fc2702ae21796231ea03672f5f07",
     "notes": [
       "New: estimated power in uploads for rides without a power meter. Ride options -> After a ride -> Add estimated power to uploads (off by default). The ride on your phone keeps sensor data only.",
       "Fixed: a map downloaded with 'Download in Cyclone instead' shows under 'On this phone' straight away; city maps show their name on first open.",

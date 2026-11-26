@@ -6,7 +6,7 @@ the app also offers each new version as a notification.
 Version numbers are **major.minor.patch**: the last number goes up for very small changes and fixes, the
 middle one for small updates, the first one for major updates.
 
-## 0.20.0 · 2026-11-26 · Customs
+## 0.20.0 · 2026-11-26 · Ponsonby
 
 Estimated power for Strava and Intervals.icu, plus fixes.
 

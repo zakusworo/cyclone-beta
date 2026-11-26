@@ -20,7 +20,7 @@ Free beta · no account · no ads · about 3 MB
 
 </div>
 
-## What's new in 0.20.0 "Customs"
+## What's new in 0.20.0 "Ponsonby"
 
 - **Estimated power in uploads:** no power meter? *Ride options → After a ride → Add estimated power to uploads* (off by default) sends Cyclone's estimate to Strava and Intervals.icu. Your ride on the phone keeps sensor data only.
 - **Fixed:** new maps show under *On this phone* straight away; a second map download no longer waits forever; the live segment colour clears when you leave a segment.
