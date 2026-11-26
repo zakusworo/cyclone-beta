@@ -6,6 +6,18 @@ the app also offers each new version as a notification.
 Version numbers are **major.minor.patch**: the last number goes up for very small changes and fixes, the
 middle one for small updates, the first one for major updates.
 
+## 0.20.0 · 2026-11-26 · Customs
+
+Estimated power for Strava and Intervals.icu, plus fixes.
+
+**New**
+- **Estimated power in uploads** (for rides without a power meter): *Ride options → After a ride → Add estimated power to uploads* (off by default). The file sent to Strava or Intervals.icu gets watts worked out from speed, gradient, your weight and the wind (±15–25 %). The ride on your phone keeps sensor data only. Strava and Intervals.icu show these watts like a power meter's, so Cyclone adds "Power estimated by Cyclone" to the description where it can; with *Strava (web)* the file is named `…-estpower.fit` and you add the note yourself. Rides averaging over 35 km/h get none.
+
+**Fixed**
+- Offline maps: a map downloaded with *Download in Cyclone instead* now shows under *On this phone* straight away, and city maps show their name (not `bandung-city`) on first open.
+- Offline maps: a second map started while the first was finishing could wait forever; Android's daily limit for background downloads now keeps the part already downloaded and says *Try again*.
+- Live segments: the green/yellow colour no longer stays after you leave a segment.
+
 ## 0.19.1 · 2026-11-23 · Symonds
 
 Incident fix for offline maps.
